@@ -52,12 +52,6 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-Dmaven.multiModuleProjectDirectory=$M2_HOME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="410" />
-    <option name="y" value="162" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
-  </component>
   <component name="ProjectId" id="1THVu3AQBhRXGnQ4G2D5lhHEy7s" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -83,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.正则表达式.正则练习">
+  <component name="RunManager" selected="JUnit.正则表达式.regexTest">
     <configuration name="正则表达式.汉字匹配" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaPracitce" />
       <option name="PACKAGE_NAME" value="正则表达式" />
@@ -149,11 +143,9 @@
     <list>
       <item itemvalue="JUnit.正则表达式.regexTest" />
       <item itemvalue="JUnit.正则表达式.汉字匹配" />
-      <item itemvalue="JUnit.正则表达式.正则练习" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.正则表达式.正则练习" />
         <item itemvalue="JUnit.正则表达式.汉字匹配" />
         <item itemvalue="JUnit.正则表达式.regexTest" />
       </list>
@@ -176,6 +168,7 @@
       <workItem from="1573117231214" duration="66000" />
       <workItem from="1573117314418" duration="38000" />
       <workItem from="1573117361428" duration="201000" />
+      <workItem from="1573117610592" duration="8000" />
     </task>
     <servers />
   </component>
