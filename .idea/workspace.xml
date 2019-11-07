@@ -4,7 +4,7 @@
     <list default="true" id="59885cf8-8219-4a0c-b805-84118adacaa5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/正则表达式/说明" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/正则表达式/说明" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/正则表达式/Pattern类的方法练习.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/正则表达式/Pattern类的方法练习.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +62,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573115447151" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/cmd/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,7 +82,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.正则表达式.regexTest">
+  <component name="RunManager" selected="JUnit.Pattern类的方法.split_">
+    <configuration name="Pattern类的方法.matches_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="正则表达式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="正则表达式" />
+      <option name="MAIN_CLASS_NAME" value="正则表达式.Pattern类的方法" />
+      <option name="METHOD_NAME" value="matches_" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pattern类的方法.patternTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="正则表达式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="正则表达式" />
+      <option name="MAIN_CLASS_NAME" value="正则表达式.Pattern类的方法" />
+      <option name="METHOD_NAME" value="patternTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pattern类的方法.split_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="正则表达式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="正则表达式" />
+      <option name="MAIN_CLASS_NAME" value="正则表达式.Pattern类的方法" />
+      <option name="METHOD_NAME" value="split_" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="正则表达式.汉字匹配" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaPracitce" />
       <option name="PACKAGE_NAME" value="正则表达式" />
@@ -148,9 +196,15 @@
     <list>
       <item itemvalue="JUnit.正则表达式.regexTest" />
       <item itemvalue="JUnit.正则表达式.汉字匹配" />
+      <item itemvalue="JUnit.Pattern类的方法.patternTest" />
+      <item itemvalue="JUnit.Pattern类的方法.matches_" />
+      <item itemvalue="JUnit.Pattern类的方法.split_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Pattern类的方法.split_" />
+        <item itemvalue="JUnit.Pattern类的方法.matches_" />
+        <item itemvalue="JUnit.Pattern类的方法.patternTest" />
         <item itemvalue="JUnit.正则表达式.汉字匹配" />
         <item itemvalue="JUnit.正则表达式.regexTest" />
       </list>
@@ -191,6 +245,7 @@
       <workItem from="1573122824805" duration="61000" />
       <workItem from="1573122896157" duration="18000" />
       <workItem from="1573123259766" duration="52000" />
+      <workItem from="1573123359977" duration="3514000" />
     </task>
     <servers />
   </component>
