@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59885cf8-8219-4a0c-b805-84118adacaa5" name="Default Changelist" comment="" />
+    <list default="true" id="59885cf8-8219-4a0c-b805-84118adacaa5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/正则表达式/说明" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/正则表达式/说明" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -63,7 +68,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,7 +173,24 @@
       <workItem from="1573117231214" duration="66000" />
       <workItem from="1573117314418" duration="38000" />
       <workItem from="1573117361428" duration="201000" />
-      <workItem from="1573117610592" duration="162000" />
+      <workItem from="1573117610592" duration="283000" />
+      <workItem from="1573118020254" duration="966000" />
+      <workItem from="1573119007851" duration="744000" />
+      <workItem from="1573119763250" duration="185000" />
+      <workItem from="1573120029168" duration="353000" />
+      <workItem from="1573120393543" duration="95000" />
+      <workItem from="1573120502049" duration="510000" />
+      <workItem from="1573121026165" duration="411000" />
+      <workItem from="1573121450626" duration="357000" />
+      <workItem from="1573121821979" duration="36000" />
+      <workItem from="1573121870564" duration="35000" />
+      <workItem from="1573121920538" duration="20000" />
+      <workItem from="1573121954293" duration="154000" />
+      <workItem from="1573122120932" duration="265000" />
+      <workItem from="1573122410590" duration="403000" />
+      <workItem from="1573122824805" duration="61000" />
+      <workItem from="1573122896157" duration="18000" />
+      <workItem from="1573123259766" duration="52000" />
     </task>
     <servers />
   </component>
