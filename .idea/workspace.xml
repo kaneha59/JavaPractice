@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59885cf8-8219-4a0c-b805-84118adacaa5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/正则表达式/Pattern类的方法.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/正则表达式/Pattern类的方法练习.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/正则表达式/Pattern类的方法练习.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/正则表达式/Pattern类的方法练习.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -245,7 +246,7 @@
       <workItem from="1573122824805" duration="61000" />
       <workItem from="1573122896157" duration="18000" />
       <workItem from="1573123259766" duration="52000" />
-      <workItem from="1573123359977" duration="3514000" />
+      <workItem from="1573123359977" duration="5549000" />
     </task>
     <servers />
   </component>
