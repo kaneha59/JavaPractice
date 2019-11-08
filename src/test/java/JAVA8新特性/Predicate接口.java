@@ -10,6 +10,9 @@ import java.util.function.Predicate;
  */
 public class Predicate接口 {
 
+    /**
+     * default Predicate<T> and(Predicate<? super T> other) {...}
+     */
     @Test
     public void and_(){
         Predicate<Integer> predicate = x -> x < 10;//传入了一个函数(参数: x, 函数体: x < 10)
@@ -19,6 +22,9 @@ public class Predicate接口 {
         System.out.println(predicate.test(6));
     }
 
+    /**
+     * default Predicate<T> or(Predicate<? super T> other) {...}
+     */
     @Test
     public void or_(){
         Predicate<String> predicate = s -> s.contains("a");
@@ -29,6 +35,9 @@ public class Predicate接口 {
         System.out.println(predicate.test("bubble"));
     }
 
+    /**
+     * default Predicate<T> negate() {...}
+     */
     @Test
     public void negate_(){
         Predicate<Integer> predicate = x -> x <10;
@@ -39,6 +48,10 @@ public class Predicate接口 {
         System.out.println(predicate.test(99));
     }
 
+    /**
+     * static <T> Predicate<T> not(Predicate<? super T> target) {...}
+     * 静态方法
+     */
     @Test
     public void not_(){
         Predicate<Integer> predicate = x -> x <10;
@@ -50,8 +63,14 @@ public class Predicate接口 {
         System.out.println(not.test(99));
     }
 
+    /**
+     * static <T> Predicate<T> isEqual(Object targetRef) {...}
+     * 静态方法isEqual(),是一个判断相等的逻辑,并返回一个Predicate对象.
+     */
     @Test
     public void isEqual_(){
-        //TODO
+        Predicate<Object> equal = Predicate.isEqual(5);
+        System.out.println(equal.test(5));
+        System.out.println(equal.test(8));
     }
 }

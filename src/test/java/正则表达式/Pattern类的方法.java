@@ -3,6 +3,7 @@ package 正则表达式;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.function.Predicate;
 import java.util.regex.Pattern;
 
@@ -56,33 +57,33 @@ public class Pattern类的方法 {
 
     /**
      * public Predicate<String> asPredicate() {...}
-     * 把Pattern对象的正则表达式作为Predicate的判断条件,返回一个Predicate对象.
+     * 源码: return s -> matcher(s).find();
+     * 使用Matcher的find()方法,部分匹配,作为Predicate对象返回
      */
     @Test
     public void asPredicate_(){
-        String regex = "c.+b";
+        String regex = "ceb";
         Pattern compile = Pattern.compile(regex);
         Predicate<String> predicate = compile.asPredicate();
-        System.out.println("1: " + predicate.test("ceb"));
-
-        Predicate<String> and = predicate.and(s -> s.matches("ch+b"));
-        System.out.println("2: " + and.test("ceb"));
-        System.out.println("3: " + and.test("chb"));
+        System.out.println("1: " + predicate.test("ceba"));
     }
 
+    /**
+     * 源码: return s -> matcher(s).matches();
+     * 使用的是Matcher的matches()方法,是完全匹配
+     */
     @Test
     public void asMatcherPredicate_(){
-        String regex = "c.+b";
+        String regex = "ceb";
         Pattern compile = Pattern.compile(regex);
         Predicate<String> predicate = compile.asMatchPredicate();
-        System.out.println("1: " + predicate.test("ceb"));
-
-        Predicate<String> and = predicate.and(s -> s.matches("ch+b"));
-        System.out.println("2: " + and.test("ceb"));
-        System.out.println("3: " + and.test("chb"));
+        System.out.println("1: " + predicate.test("ceba"));
 
         //和上边的方法有什么区别?
-        //TODO
+        //贴上源码,自己理解
+        // asPredicate()  ==>  return s -> matcher(s).find();
+        // asMatchPredicate()  ==>  return s -> matcher(s).matches();
+        //find()是部分匹配,matches()是完全匹配
     }
 
 }
