@@ -12,7 +12,7 @@ public class 正则表达式 {
      */
     @Test
     public void 正则练习(){
-        String sentence = "cb-ceb-ceeb-ceeeb-ceeeeb";
+        String sentence = "cb-ceb-ceeb-ceeeb-ceeeeb,.?!@#$%^&*()";
         String regex = ".+";
 
         Pattern pattern = Pattern.compile(regex);

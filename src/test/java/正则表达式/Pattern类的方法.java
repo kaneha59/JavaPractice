@@ -3,27 +3,30 @@ package 正则表达式;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.function.Predicate;
 import java.util.regex.Pattern;
 
 public class Pattern类的方法 {
     /**
-     * matches()静态方法,用于判断是否完全匹配整个字符串,返回boolean
-     * 完全匹配返回true,不能完全匹配返回false
+     * public static boolean matches(String regex, CharSequence input) {...}
+     * 用于判断是否完全匹配整个字符串,返回boolean
      * 关键词: 静态方法
+     * PS: CharSequence意思是Char序列,该接口是String,StringBuilder,StringBuffer等类的实现接口
      */
     @Test
     public void matches_(){
         String sentence = "my name is zhangsan";
         String regex = ".";
 
-        System.out.println("------public static boolean matches(String regex, CharSequence input)方法测试------");
-        System.out.println("测试字符串为: 'my name is zhangsan'");
         System.out.println("'.'只能匹配单个任意字符,无法完全匹配,返回: " + Pattern.matches(".", sentence));
         System.out.println("'.+'可以匹配无限多个任意字符,完全匹配,返回: " + Pattern.matches(".+", sentence));
     }
 
     /**
-     * split()用于分割字符串,返回String数组
+     * public String[] split(CharSequence input) {...}
+     * public String[] split(CharSequence input, int limit) {...}
+     * 用于分割字符串,返回String数组.有2个重载方法
+     * 关键词: 重载方法
      */
     @Test
     public void split_(){
@@ -38,6 +41,48 @@ public class Pattern类的方法 {
         //两个参数,第二个参数是限制数组的容量(分割字符串的个数)
         String[] split2 = compile.split(sentence, 2);
         System.out.println("两个参数: " + Arrays.asList(split2));
+    }
+
+    /**
+     * public String pattern() {...}
+     * 可以返回Pattern对象的正则表达式
+     */
+    @Test
+    public void pattern_(){
+        String regex = "a+?";
+        Pattern compile = Pattern.compile(regex);
+        System.out.println(compile.pattern());
+    }
+
+    /**
+     * public Predicate<String> asPredicate() {...}
+     * 把Pattern对象的正则表达式作为Predicate的判断条件,返回一个Predicate对象.
+     */
+    @Test
+    public void asPredicate_(){
+        String regex = "c.+b";
+        Pattern compile = Pattern.compile(regex);
+        Predicate<String> predicate = compile.asPredicate();
+        System.out.println("1: " + predicate.test("ceb"));
+
+        Predicate<String> and = predicate.and(s -> s.matches("ch+b"));
+        System.out.println("2: " + and.test("ceb"));
+        System.out.println("3: " + and.test("chb"));
+    }
+
+    @Test
+    public void asMatcherPredicate_(){
+        String regex = "c.+b";
+        Pattern compile = Pattern.compile(regex);
+        Predicate<String> predicate = compile.asMatchPredicate();
+        System.out.println("1: " + predicate.test("ceb"));
+
+        Predicate<String> and = predicate.and(s -> s.matches("ch+b"));
+        System.out.println("2: " + and.test("ceb"));
+        System.out.println("3: " + and.test("chb"));
+
+        //和上边的方法有什么区别?
+        //TODO
     }
 
 }
