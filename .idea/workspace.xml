@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59885cf8-8219-4a0c-b805-84118adacaa5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JAVA8新特性/Predicate接口.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JAVA8新特性/Predicate接口.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JAVA8新特性/Stream类.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JAVA8新特性/Stream类.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/正则表达式/Pattern类的方法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/正则表达式/Pattern类的方法.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JAVA8新特性/Stream类.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JAVA8新特性/Stream类.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/正则表达式/Pattern类的方法.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/正则表达式/Pattern类的方法.class" afterDir="false" />
-    </list>
+    <list default="true" id="59885cf8-8219-4a0c-b805-84118adacaa5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +258,7 @@
       <workItem from="1573123259766" duration="52000" />
       <workItem from="1573123359977" duration="5549000" />
       <workItem from="1573186656336" duration="9938000" />
-      <workItem from="1573206325516" duration="16095000" />
+      <workItem from="1573206325516" duration="16212000" />
     </task>
     <servers />
   </component>
