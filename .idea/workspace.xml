@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59885cf8-8219-4a0c-b805-84118adacaa5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JAVA8新特性/Predicate接口.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JAVA8新特性/双冒号.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/正则表达式/Matcher类.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JAVA8新特性/Stream类.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/正则表达式/Pattern类的方法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/正则表达式/Pattern类的方法.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/正则表达式/正则表达式.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/正则表达式/正则表达式.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/正则表达式/说明" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/正则表达式/说明" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/正则表达式/Pattern类的方法.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/正则表达式/Pattern类的方法.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/正则表达式/正则表达式.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/正则表达式/正则表达式.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JAVA8新特性/双冒号.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JAVA8新特性/双冒号.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JAVA8新特性/双冒号.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JAVA8新特性/双冒号.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,66 +86,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.双冒号.test">
-    <configuration name="Pattern类的方法.asPredicate_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Stream类.map_">
+    <configuration name="Stream类.初始化流" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="正则表达式.*" />
+          <option name="PATTERN" value="JAVA8新特性.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="正则表达式" />
-      <option name="MAIN_CLASS_NAME" value="正则表达式.Pattern类的方法" />
-      <option name="METHOD_NAME" value="asPredicate_" />
+      <option name="PACKAGE_NAME" value="JAVA8新特性" />
+      <option name="MAIN_CLASS_NAME" value="JAVA8新特性.Stream类" />
+      <option name="METHOD_NAME" value="初始化流" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern类的方法.fdsaf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Stream类.filter_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="正则表达式.*" />
+          <option name="PATTERN" value="JAVA8新特性.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="正则表达式" />
-      <option name="MAIN_CLASS_NAME" value="正则表达式.Pattern类的方法" />
-      <option name="METHOD_NAME" value="fdsaf" />
+      <option name="PACKAGE_NAME" value="JAVA8新特性" />
+      <option name="MAIN_CLASS_NAME" value="JAVA8新特性.Stream类" />
+      <option name="METHOD_NAME" value="filter_" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern类的方法.split_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Stream类.map_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="正则表达式.*" />
+          <option name="PATTERN" value="JAVA8新特性.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="正则表达式" />
-      <option name="MAIN_CLASS_NAME" value="正则表达式.Pattern类的方法" />
-      <option name="METHOD_NAME" value="split_" />
+      <option name="PACKAGE_NAME" value="JAVA8新特性" />
+      <option name="MAIN_CLASS_NAME" value="JAVA8新特性.Stream类" />
+      <option name="METHOD_NAME" value="map_" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="正则表达式.正则练习" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Stream类.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="正则表达式.*" />
+          <option name="PATTERN" value="JAVA8新特性.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="正则表达式" />
-      <option name="MAIN_CLASS_NAME" value="正则表达式.正则表达式" />
-      <option name="METHOD_NAME" value="正则练习" />
+      <option name="PACKAGE_NAME" value="JAVA8新特性" />
+      <option name="MAIN_CLASS_NAME" value="JAVA8新特性.Stream类" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,19 +210,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Pattern类的方法.asPredicate_" />
-      <item itemvalue="JUnit.Pattern类的方法.split_" />
-      <item itemvalue="JUnit.正则表达式.正则练习" />
-      <item itemvalue="JUnit.Pattern类的方法.fdsaf" />
       <item itemvalue="JUnit.双冒号.test" />
+      <item itemvalue="JUnit.Stream类.test" />
+      <item itemvalue="JUnit.Stream类.初始化流" />
+      <item itemvalue="JUnit.Stream类.map_" />
+      <item itemvalue="JUnit.Stream类.filter_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Stream类.map_" />
+        <item itemvalue="JUnit.Stream类.filter_" />
+        <item itemvalue="JUnit.Stream类.初始化流" />
+        <item itemvalue="JUnit.Stream类.test" />
         <item itemvalue="JUnit.双冒号.test" />
-        <item itemvalue="JUnit.Pattern类的方法.asPredicate_" />
-        <item itemvalue="JUnit.Pattern类的方法.fdsaf" />
-        <item itemvalue="JUnit.正则表达式.正则练习" />
-        <item itemvalue="JUnit.Pattern类的方法.split_" />
       </list>
     </recent_temporary>
   </component>
@@ -268,6 +263,7 @@
       <workItem from="1573123259766" duration="52000" />
       <workItem from="1573123359977" duration="5549000" />
       <workItem from="1573186656336" duration="9938000" />
+      <workItem from="1573206325516" duration="7348000" />
     </task>
     <servers />
   </component>

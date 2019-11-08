@@ -19,9 +19,12 @@ public class 双冒号 {
     }
     @Test
     public void test(){
-        Integer[] integers = {11, 5, 2, 91, 8};
+        Integer[] integers = {11, 5, 5, 2, 91, 8,21};
         List<Integer> intList = Arrays.asList(integers);
 
+        //this::compare 是把本类中的compare()方法,传入了
+        //函数式接口Comparator<? super E>,实现了该接口内的int compare(T o1, T o2)方法.
+        //PS: 使用::传递方法时要注意,传入的方法要能适配函数式接口内的方法,比如入参,返回类型.
         intList.sort(this::compare);
         System.out.println(intList);
     }
