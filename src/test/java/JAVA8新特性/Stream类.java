@@ -165,11 +165,33 @@ public class Stream类 {
     }
 
     /**
-     *
+     * reduce()方法是用来对stream中的元素进行聚合操作的,有3个重载方法
+     * Optional<T> reduce(BinaryOperator<T> accumulator)
+     * T reduce(T identity, BinaryOperator<T> accumulator)
+     * <U> U reduce(U identity,
+     *                  BiFunction<U, ? super T, U> accumulator,
+     *                  BinaryOperator<U> combiner);
      */
     @Test
     public void reduce_(){
+        //1. 传入有2个参数的函数,进行聚合操作
+        Stream<Integer> stream1 = Stream.of(2, 2, 2);
+        Optional<Integer> reduce1 = stream1.reduce((x, y) -> x * y);
+        System.out.println(reduce1.get());
+
+        //2. 第一个参数是stream流外的一个元素,以此元素为基础聚合
+        Stream<Integer> stream2 = Stream.of(2, 2, 2);
+        Integer reduce2 = stream2.reduce(2, (x, y) -> x * y);
+        System.out.println(reduce2);
+
+        //3.可以把聚合的结果变成其他类型.
+        //第三个参数是并行的时候用的到,串行的时候没用.
+        //暂时不太了解,先TODO
         //TODO
+        Stream<Integer> stream3 = Stream.of(Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE);
+        Long reduce3 = stream3.reduce(0L, (x, y) -> x + y, (a, b) -> null);
+        System.out.println(reduce3);
+
     }
 
 }
