@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59885cf8-8219-4a0c-b805-84118adacaa5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/正则表达式/Matcher类.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/正则表达式/Matcher类.java" afterDir="false" />
-    </list>
+    <list default="true" id="59885cf8-8219-4a0c-b805-84118adacaa5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +243,7 @@
       <workItem from="1573123359977" duration="5549000" />
       <workItem from="1573186656336" duration="9938000" />
       <workItem from="1573206325516" duration="16212000" />
-      <workItem from="1573272420136" duration="15013000" />
+      <workItem from="1573272420136" duration="15634000" />
     </task>
     <servers />
   </component>
