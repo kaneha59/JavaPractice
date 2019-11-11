@@ -36,7 +36,12 @@ public class StringBuilder和StringBuffer {
         sbuilder.setCharAt(0, 'A');
         System.out.println(sbuilder);
 
-        //5. setLength(int newLength)
+        //5. insert(重载参数)
+        // 在指定index插入内容
+        StringBuilder xyz = sbuilder.insert(6,  "xyz");
+        System.out.println(xyz);
+
+        //6. setLength(int newLength)
         // 设置StringBuilder的长度,超出的会被剪掉
         sbuilder.setLength(3);
         System.out.println(sbuilder);

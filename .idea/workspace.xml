@@ -39,8 +39,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/Coding/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="C:\Coding\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="C:\GreenSoftware\ideaIU-2019.2.4.win\plugins\maven\lib\maven3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -61,13 +61,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573115447151" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,6 +189,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.正则表达式.正则练习" />
       <item itemvalue="JUnit.Stream类.reduce_" />
       <item itemvalue="JUnit.String类.test" />
       <item itemvalue="JUnit.String类.java12_" />
@@ -244,6 +245,8 @@
       <workItem from="1573186656336" duration="9938000" />
       <workItem from="1573206325516" duration="16212000" />
       <workItem from="1573272420136" duration="15634000" />
+      <workItem from="1573407075098" duration="120000" />
+      <workItem from="1573463648655" duration="7855000" />
     </task>
     <servers />
   </component>

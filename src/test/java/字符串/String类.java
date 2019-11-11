@@ -33,7 +33,7 @@ public class String类 {
         System.out.println(str.subSequence(0, 10));
 
         //contentEquals()
-        //contentEquals()传入stringBuffer对象做比较,返回CharSequence
+        //contentEquals()传入stringBuffer对象做比较,返回boolean
         System.out.println(str.contentEquals(new StringBuffer("abcdefg hijklmn opq rst uvw xyzz")));
 
         //getChars(int srcBegin, int srcEnd, char dst[], int dstBegin)
@@ -50,7 +50,9 @@ public class String类 {
 
         //replace(CharSequence target, CharSequence replacement)
         //还有重载方法,自己看
+        //替换单个字符,用replace(),替换字符串,用replaceAll()
         String replace = str.replace("z", "Z");
+
         System.out.println(replace);
 
         //regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len)
