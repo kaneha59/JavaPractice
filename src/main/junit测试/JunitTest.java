@@ -1,16 +1,7 @@
-package 字符串;
+package junit测试;
 
-import org.junit.Test;
-
-/**
- * StringBuilder --> 线程不安全
- * StringBuffer --> 线程安全
- * 这两个类相对于String的优点是可以反复拼接字符串而不用担心巨量的资源消耗(不会反复创建新的字符串).
- * 这里只列出String没有的方法
- */
-public class StringBuilder和StringBuffer {
-    @Test
-    public void test(){
+public class JunitTest {
+    public StringBuilder test(){
         StringBuilder sbuilder = new StringBuilder(" abcd ");
         StringBuffer sbuffer = new StringBuffer();
 
@@ -44,5 +35,6 @@ public class StringBuilder和StringBuffer {
         // 设置StringBuilder的长度,超出的会被剪掉
         sbuilder.setLength(3);
         System.out.println(sbuilder);
+        return sbuilder;
     }
 }

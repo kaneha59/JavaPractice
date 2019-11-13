@@ -29,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -61,13 +62,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573115447151" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="junit测试" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -81,7 +92,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringBuilder和StringBuffer.test">
+  <component name="RunManager" selected="JUnit.JunitTestTest.test1">
+    <configuration name="JunitTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit测试.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit测试" />
+      <option name="MAIN_CLASS_NAME" value="junit测试.JunitTestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitTestTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit测试.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit测试" />
+      <option name="MAIN_CLASS_NAME" value="junit测试.JunitTestTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Pattern类的方法.split_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
@@ -98,22 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stream类.reduce_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JAVA8新特性.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JAVA8新特性" />
-      <option name="MAIN_CLASS_NAME" value="JAVA8新特性.Stream类" />
-      <option name="METHOD_NAME" value="reduce_" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringBuilder和StringBuffer.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
@@ -125,22 +151,6 @@
       <option name="PACKAGE_NAME" value="字符串" />
       <option name="MAIN_CLASS_NAME" value="字符串.StringBuilder和StringBuffer" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="String类.java12_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="字符串.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="字符串" />
-      <option name="MAIN_CLASS_NAME" value="字符串.String类" />
-      <option name="METHOD_NAME" value="java12_" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,22 +173,6 @@
       </method>
     </configuration>
     <configuration name="正则表达式.正则练习" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="正则表达式.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="正则表达式" />
-      <option name="MAIN_CLASS_NAME" value="正则表达式.正则表达式" />
-      <option name="METHOD_NAME" value="正则练习" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="正则表达式.正则练习" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <option name="PACKAGE_NAME" value="正则表达式" />
       <option name="MAIN_CLASS_NAME" value="正则表达式.正则表达式" />
@@ -189,20 +183,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.正则表达式.正则练习" />
-      <item itemvalue="JUnit.Stream类.reduce_" />
       <item itemvalue="JUnit.String类.test" />
-      <item itemvalue="JUnit.String类.java12_" />
       <item itemvalue="JUnit.Pattern类的方法.split_" />
       <item itemvalue="JUnit.StringBuilder和StringBuffer.test" />
+      <item itemvalue="JUnit.JunitTestTest" />
+      <item itemvalue="JUnit.JunitTestTest.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JunitTestTest.test1" />
+        <item itemvalue="JUnit.JunitTestTest" />
         <item itemvalue="JUnit.StringBuilder和StringBuffer.test" />
         <item itemvalue="JUnit.String类.test" />
         <item itemvalue="JUnit.Pattern类的方法.split_" />
-        <item itemvalue="JUnit.String类.java12_" />
-        <item itemvalue="JUnit.Stream类.reduce_" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +240,8 @@
       <workItem from="1573272420136" duration="15634000" />
       <workItem from="1573407075098" duration="120000" />
       <workItem from="1573463648655" duration="7855000" />
+      <workItem from="1573604972742" duration="2124000" />
+      <workItem from="1573640697063" duration="2492000" />
     </task>
     <servers />
   </component>
