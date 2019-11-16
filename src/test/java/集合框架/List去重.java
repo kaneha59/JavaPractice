@@ -1,8 +1,7 @@
-package 集合框架;
+package java.集合框架;
 
 import org.junit.Test;
 
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class List去重 {

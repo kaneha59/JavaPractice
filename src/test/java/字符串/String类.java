@@ -1,9 +1,7 @@
-package 字符串;
+package java.字符串;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.stream.IntStream;
 
 /**

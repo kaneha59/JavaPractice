@@ -28,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,50 +92,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JunitTestTest.test1">
-    <configuration name="JunitTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.通过Runnable创建多线程">
+    <configuration name="多线程练习" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.多线程.多线程练习" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit测试.*" />
+          <option name="PATTERN" value="java.多线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit测试" />
-      <option name="MAIN_CLASS_NAME" value="junit测试.JunitTestTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JunitTestTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="多线程练习" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.多线程.多线程练习" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit测试.*" />
+          <option name="PATTERN" value="java.多线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit测试" />
-      <option name="MAIN_CLASS_NAME" value="junit测试.JunitTestTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern类的方法.split_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="通过Runnable创建多线程" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java其他内容.多线程.通过Runnable创建多线程" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="正则表达式.*" />
+          <option name="PATTERN" value="java其他内容.多线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="正则表达式" />
-      <option name="MAIN_CLASS_NAME" value="正则表达式.Pattern类的方法" />
-      <option name="METHOD_NAME" value="split_" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,46 +148,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String类.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="多线程练习.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="字符串.*" />
+          <option name="PATTERN" value="java.多线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="字符串" />
-      <option name="MAIN_CLASS_NAME" value="字符串.String类" />
+      <option name="PACKAGE_NAME" value="java.多线程" />
+      <option name="MAIN_CLASS_NAME" value="java.多线程.多线程练习" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="正则表达式.正则练习" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
-      <option name="PACKAGE_NAME" value="正则表达式" />
-      <option name="MAIN_CLASS_NAME" value="正则表达式.正则表达式" />
-      <option name="METHOD_NAME" value="正则练习" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.String类.test" />
-      <item itemvalue="JUnit.Pattern类的方法.split_" />
       <item itemvalue="JUnit.StringBuilder和StringBuffer.test" />
-      <item itemvalue="JUnit.JunitTestTest" />
-      <item itemvalue="JUnit.JunitTestTest.test1" />
+      <item itemvalue="JUnit.多线程练习.test" />
+      <item itemvalue="Application.多线程练习" />
+      <item itemvalue="Application.多线程练习 (1)" />
+      <item itemvalue="Application.通过Runnable创建多线程" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JunitTestTest.test1" />
-        <item itemvalue="JUnit.JunitTestTest" />
+        <item itemvalue="Application.通过Runnable创建多线程" />
+        <item itemvalue="Application.多线程练习 (1)" />
+        <item itemvalue="Application.多线程练习" />
         <item itemvalue="JUnit.StringBuilder和StringBuffer.test" />
-        <item itemvalue="JUnit.String类.test" />
-        <item itemvalue="JUnit.Pattern类的方法.split_" />
+        <item itemvalue="JUnit.多线程练习.test" />
       </list>
     </recent_temporary>
   </component>
@@ -242,6 +224,8 @@
       <workItem from="1573463648655" duration="7855000" />
       <workItem from="1573604972742" duration="2124000" />
       <workItem from="1573640697063" duration="2492000" />
+      <workItem from="1573730231550" duration="86000" />
+      <workItem from="1573914175729" duration="4609000" />
     </task>
     <servers />
   </component>

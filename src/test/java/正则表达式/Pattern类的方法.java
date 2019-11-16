@@ -1,9 +1,8 @@
-package 正则表达式;
+package java.正则表达式;
 
 import org.junit.Test;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.function.Predicate;
 import java.util.regex.Pattern;
 

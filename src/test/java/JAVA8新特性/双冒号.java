@@ -1,4 +1,4 @@
-package JAVA8新特性;
+package java.JAVA8新特性;
 
 import org.junit.Test;
 

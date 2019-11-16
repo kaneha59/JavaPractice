@@ -1,4 +1,4 @@
-package 字符串;
+package java.字符串;
 
 import org.junit.Test;
 
