@@ -93,35 +93,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.日期.simpleDateFormatTest">
-    <configuration name="传参测试" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java其他内容.其他.传参测试" />
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java其他内容.其他.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Pattern类的方法.pattern_">
     <configuration name="线程池" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java其他内容.多线程.线程池" />
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java其他内容.多线程.创建线程.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Thread类创建线程" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java其他内容.多线程.创建线程.Thread类创建线程" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
@@ -146,52 +120,100 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="日期.dateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Calendar_.获取实例" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.其他.*" />
+          <option name="PATTERN" value="java基础.日期和时间.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.其他" />
-      <option name="MAIN_CLASS_NAME" value="java基础.其他.日期" />
-      <option name="METHOD_NAME" value="dateTest" />
+      <option name="PACKAGE_NAME" value="java基础.日期和时间" />
+      <option name="MAIN_CLASS_NAME" value="java基础.日期和时间.Calendar_" />
+      <option name="METHOD_NAME" value="获取实例" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="日期.simpleDateFormatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Calendar_.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.其他.*" />
+          <option name="PATTERN" value="java基础.日期和时间.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.其他" />
-      <option name="MAIN_CLASS_NAME" value="java基础.其他.日期" />
-      <option name="METHOD_NAME" value="simpleDateFormatTest" />
+      <option name="PACKAGE_NAME" value="java基础.日期和时间" />
+      <option name="MAIN_CLASS_NAME" value="java基础.日期和时间.Calendar_" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pattern类的方法.pattern_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java基础.正则表达式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java基础.正则表达式" />
+      <option name="MAIN_CLASS_NAME" value="java基础.正则表达式.Pattern类的方法" />
+      <option name="METHOD_NAME" value="pattern_" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleDateFormat_.format" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java基础.日期和时间.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java基础.日期和时间" />
+      <option name="MAIN_CLASS_NAME" value="java基础.日期和时间.SimpleDateFormat_" />
+      <option name="METHOD_NAME" value="format" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleDateFormat_.toPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java基础.日期和时间.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java基础.日期和时间" />
+      <option name="MAIN_CLASS_NAME" value="java基础.日期和时间.SimpleDateFormat_" />
+      <option name="METHOD_NAME" value="toPattern" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Thread类创建线程" />
-      <item itemvalue="Application.传参测试" />
-      <item itemvalue="Application.线程池" />
-      <item itemvalue="JUnit.日期.dateTest" />
-      <item itemvalue="JUnit.日期.simpleDateFormatTest" />
+      <item itemvalue="JUnit.SimpleDateFormat_.format" />
+      <item itemvalue="JUnit.SimpleDateFormat_.toPattern" />
+      <item itemvalue="JUnit.Calendar_.获取实例" />
+      <item itemvalue="JUnit.Calendar_.get" />
+      <item itemvalue="JUnit.Pattern类的方法.pattern_" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.日期.simpleDateFormatTest" />
-        <item itemvalue="JUnit.日期.dateTest" />
-        <item itemvalue="Application.线程池" />
-        <item itemvalue="Application.Thread类创建线程" />
-        <item itemvalue="Application.传参测试" />
+        <item itemvalue="JUnit.Pattern类的方法.pattern_" />
+        <item itemvalue="JUnit.Calendar_.get" />
+        <item itemvalue="JUnit.Calendar_.获取实例" />
+        <item itemvalue="JUnit.SimpleDateFormat_.toPattern" />
+        <item itemvalue="JUnit.SimpleDateFormat_.format" />
       </list>
     </recent_temporary>
   </component>
@@ -241,6 +263,7 @@
       <workItem from="1573730231550" duration="86000" />
       <workItem from="1573914175729" duration="4609000" />
       <workItem from="1573957880500" duration="17427000" />
+      <workItem from="1574438129759" duration="3742000" />
     </task>
     <servers />
   </component>
