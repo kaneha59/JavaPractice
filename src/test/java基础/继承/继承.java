@@ -18,6 +18,7 @@ public class 继承 {
         public void write() {
             //super.write();
             super.write();
+            System.out.println("我是student...");
         }
     }
 

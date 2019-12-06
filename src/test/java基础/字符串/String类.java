@@ -13,8 +13,40 @@ public class String类 {
     public void test(){
         String str = "abcdefg hijklmn opq rst uvw xyzz";
 
+        // 1.去掉开头或结尾的空格
+        String str1 = "  aabbcc  ";
+
+        // 2.拼接字符串
+
+        // 3.包含字符串
+
+        // 4.判断内容相同(两种比较方法的区别?String重写过的equals()方法要了解)
+
+        // 5.正则完全匹配的方法?
+
+        // 6.String变char数组?
+
+        // 7.replace(), replaceAll(), replaceFirst()的用法和区别
+
+        // 8.截取字符串
+
+        // 9.分隔字符串,该方法是否会替换掉匹配内容?
+
+        // 10.是否以给定字符串开头或结尾?
+
+        // 11.将两个字符串的局部内容进行匹配返回boolean?
+
+        // 12.根据索引查询对应char或根据char查询索引
+
+        // 13.串池和intern()?
+    }
+
+    @Test
+    public void java8及以前() {
+        String str = "abcdefg hijklmn opq rst uvw xyzz";
+
         //codePointAt(int index)
-        //获取指定字符串的unicode编码
+        //获取字符串某下标对应字符的unicode编码
         System.out.println(str.codePointAt(0));
 
         //codePointBefore(int index)

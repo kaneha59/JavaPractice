@@ -25,6 +25,9 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaPractice" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -40,6 +43,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\Kaneha\.m2\repository" />
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
         <option name="userSettingsFile" value="C:\GreenSoftware\ideaIU-2019.2.4.win\plugins\maven\lib\maven3\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -47,6 +51,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -67,11 +72,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -93,49 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Pattern类的方法.pattern_">
-    <configuration name="线程池" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java其他内容.多线程.线程池" />
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java其他内容.多线程.创建线程.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="多线程练习" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java.多线程.多线程练习" />
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java.多线程.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Calendar_.获取实例" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java基础.日期和时间.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java基础.日期和时间" />
-      <option name="MAIN_CLASS_NAME" value="java基础.日期和时间.Calendar_" />
-      <option name="METHOD_NAME" value="获取实例" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.String类.test">
     <configuration name="Calendar_.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
@@ -168,52 +131,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleDateFormat_.format" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="String类.java8及以前" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.日期和时间.*" />
+          <option name="PATTERN" value="java基础.字符串.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.日期和时间" />
-      <option name="MAIN_CLASS_NAME" value="java基础.日期和时间.SimpleDateFormat_" />
-      <option name="METHOD_NAME" value="format" />
+      <option name="PACKAGE_NAME" value="java基础.字符串" />
+      <option name="MAIN_CLASS_NAME" value="java基础.字符串.String类" />
+      <option name="METHOD_NAME" value="java8及以前" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleDateFormat_.toPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="String类.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.日期和时间.*" />
+          <option name="PATTERN" value="java基础.字符串.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.日期和时间" />
-      <option name="MAIN_CLASS_NAME" value="java基础.日期和时间.SimpleDateFormat_" />
-      <option name="METHOD_NAME" value="toPattern" />
+      <option name="PACKAGE_NAME" value="java基础.字符串" />
+      <option name="MAIN_CLASS_NAME" value="java基础.字符串.String类" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="继承.extendsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java基础.继承.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java基础.继承" />
+      <option name="MAIN_CLASS_NAME" value="java基础.继承.继承" />
+      <option name="METHOD_NAME" value="extendsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SimpleDateFormat_.format" />
-      <item itemvalue="JUnit.SimpleDateFormat_.toPattern" />
-      <item itemvalue="JUnit.Calendar_.获取实例" />
       <item itemvalue="JUnit.Calendar_.get" />
       <item itemvalue="JUnit.Pattern类的方法.pattern_" />
+      <item itemvalue="JUnit.继承.extendsTest" />
+      <item itemvalue="JUnit.String类.java8及以前" />
+      <item itemvalue="JUnit.String类.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.String类.test" />
+        <item itemvalue="JUnit.String类.java8及以前" />
+        <item itemvalue="JUnit.继承.extendsTest" />
         <item itemvalue="JUnit.Pattern类的方法.pattern_" />
         <item itemvalue="JUnit.Calendar_.get" />
-        <item itemvalue="JUnit.Calendar_.获取实例" />
-        <item itemvalue="JUnit.SimpleDateFormat_.toPattern" />
-        <item itemvalue="JUnit.SimpleDateFormat_.format" />
       </list>
     </recent_temporary>
   </component>
@@ -264,6 +243,10 @@
       <workItem from="1573914175729" duration="4609000" />
       <workItem from="1573957880500" duration="17427000" />
       <workItem from="1574438129759" duration="3742000" />
+      <workItem from="1574469597758" duration="2846000" />
+      <workItem from="1574476573479" duration="350000" />
+      <workItem from="1574500576188" duration="2856000" />
+      <workItem from="1575631532435" duration="5427000" />
     </task>
     <servers />
   </component>
