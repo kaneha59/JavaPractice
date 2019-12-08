@@ -9,8 +9,37 @@ import org.junit.Test;
  * 这里只列出String没有的方法
  */
 public class StringBuilder和StringBuffer {
+
     @Test
-    public void test(){
+    public void test() {
+        StringBuilder sb = new StringBuilder("  aabb  ");
+        //1. 在任意下标插入内容
+
+        //2. 获取字符串对应的下标?
+
+        //3. replace()和String的区别?
+
+        //4. 删除给定下标范围的字符串,或删除给定下标的字符
+
+        //5. 字符串反转?
+
+        //6. 获取当前StringBuilder的容量?
+
+        //7. 设置StringBUilder的初始容量?(默认为24)
+
+        //8. 设置StringBulder的最大长度?
+
+        //9. 将容量空间缩减到和字符串一样的长度
+
+        //10. 截取一段字符串并存入char数组
+
+        //11. 截取字符串?(2种)
+
+        //12. codePoint系列方法?
+    }
+
+    @Test
+    public void test1111(){
         StringBuilder sbuilder = new StringBuilder(" abcd ");
         StringBuffer sbuffer = new StringBuffer();
 

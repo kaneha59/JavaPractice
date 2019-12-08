@@ -98,101 +98,100 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.String类.test">
-    <configuration name="Calendar_.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.List去重.test">
+    <configuration name="List去重" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.日期和时间.*" />
+          <option name="PATTERN" value="java基础.集合框架.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.日期和时间" />
-      <option name="MAIN_CLASS_NAME" value="java基础.日期和时间.Calendar_" />
-      <option name="METHOD_NAME" value="get" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="java基础.集合框架" />
+      <option name="MAIN_CLASS_NAME" value="java基础.集合框架.List去重" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern类的方法.pattern_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="List去重.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.正则表达式.*" />
+          <option name="PATTERN" value="java基础.集合框架.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.正则表达式" />
-      <option name="MAIN_CLASS_NAME" value="java基础.正则表达式.Pattern类的方法" />
-      <option name="METHOD_NAME" value="pattern_" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="String类.java8及以前" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java基础.字符串.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java基础.字符串" />
-      <option name="MAIN_CLASS_NAME" value="java基础.字符串.String类" />
-      <option name="METHOD_NAME" value="java8及以前" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="String类.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java基础.字符串.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java基础.字符串" />
-      <option name="MAIN_CLASS_NAME" value="java基础.字符串.String类" />
+      <option name="PACKAGE_NAME" value="java基础.集合框架" />
+      <option name="MAIN_CLASS_NAME" value="java基础.集合框架.List去重" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="继承.extendsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Predicate接口.and_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.继承.*" />
+          <option name="PATTERN" value="java基础.JAVA8新特性.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.继承" />
-      <option name="MAIN_CLASS_NAME" value="java基础.继承.继承" />
-      <option name="METHOD_NAME" value="extendsTest" />
+      <option name="PACKAGE_NAME" value="java基础.JAVA8新特性" />
+      <option name="MAIN_CLASS_NAME" value="java基础.JAVA8新特性.Predicate接口" />
+      <option name="METHOD_NAME" value="and_" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Predicate接口.negate_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java基础.JAVA8新特性.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java基础.JAVA8新特性" />
+      <option name="MAIN_CLASS_NAME" value="java基础.JAVA8新特性.Predicate接口" />
+      <option name="METHOD_NAME" value="negate_" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Predicate接口.or_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java基础.JAVA8新特性.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java基础.JAVA8新特性" />
+      <option name="MAIN_CLASS_NAME" value="java基础.JAVA8新特性.Predicate接口" />
+      <option name="METHOD_NAME" value="or_" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Calendar_.get" />
-      <item itemvalue="JUnit.Pattern类的方法.pattern_" />
-      <item itemvalue="JUnit.继承.extendsTest" />
-      <item itemvalue="JUnit.String类.java8及以前" />
-      <item itemvalue="JUnit.String类.test" />
+      <item itemvalue="JUnit.Predicate接口.and_" />
+      <item itemvalue="JUnit.Predicate接口.or_" />
+      <item itemvalue="JUnit.Predicate接口.negate_" />
+      <item itemvalue="JUnit.List去重.test" />
+      <item itemvalue="JUnit.List去重" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.String类.test" />
-        <item itemvalue="JUnit.String类.java8及以前" />
-        <item itemvalue="JUnit.继承.extendsTest" />
-        <item itemvalue="JUnit.Pattern类的方法.pattern_" />
-        <item itemvalue="JUnit.Calendar_.get" />
+        <item itemvalue="JUnit.List去重.test" />
+        <item itemvalue="JUnit.List去重" />
+        <item itemvalue="JUnit.Predicate接口.negate_" />
+        <item itemvalue="JUnit.Predicate接口.or_" />
+        <item itemvalue="JUnit.Predicate接口.and_" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +246,7 @@
       <workItem from="1574476573479" duration="350000" />
       <workItem from="1574500576188" duration="2856000" />
       <workItem from="1575631532435" duration="5427000" />
+      <workItem from="1575771534464" duration="21598000" />
     </task>
     <servers />
   </component>

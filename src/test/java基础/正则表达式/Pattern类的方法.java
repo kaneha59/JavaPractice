@@ -16,10 +16,9 @@ public class Pattern类的方法 {
     @Test
     public void matches_(){
         String sentence = "my name is zhangsan";
-        String regex = ".";
 
-        System.out.println("'.'只能匹配单个任意字符,无法完全匹配,返回: " + Pattern.matches(".", sentence));
-        System.out.println("'.+'可以匹配无限多个任意字符,完全匹配,返回: " + Pattern.matches(".+", sentence));
+        System.out.println(Pattern.matches(".", sentence));
+        System.out.println(Pattern.matches(".+", sentence));
     }
 
     /**

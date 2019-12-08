@@ -2,6 +2,7 @@ package java基础.字符串;
 
 import org.junit.Test;
 
+import java.util.Arrays;
 import java.util.stream.IntStream;
 
 /**
@@ -38,7 +39,43 @@ public class String类 {
 
         // 12.根据索引查询对应char或根据char查询索引
 
-        // 13.串池和intern()?
+        // 13.intern()的作用?
+                // 先判断串池中是否有该对象,有则返回串池中该字符串的引用,
+                // 没有则再串池中新建该对象,再返回该引用
+
+        // 14.截取一段字符串并装入一个char数组?
+
+        //15. String的静态方法format()怎么用?(参考同目录下的"String的format()方法.txt")
+
+        System.out.println(String.format("%9s%n%<6s", "abc"));
+        System.out.println(String.format("%2$d 比 %1$d 大5", 2, 7));
+        System.out.println(String.format("%6d和%% 呀%6d一样大", 34, 34));
+
+    }
+
+    @Test
+    public void 创建字符串() {
+        String a1 = "AA";
+        String a2 = new String("BB");
+        String a3 = "CC" + new String("DD");
+
+        // a1: 首先在串池中创建"AA"(已有则不创建),并返回池中"AA"的引用给变量a1
+        // a2: 首先在串池中创建"BB"(已有则不创建),再在堆中开辟"BB"
+        // a3: 首先在堆中新建"CCDD",再在串池中产生一个指向堆中"CCDD"的引用
+        System.out.println(a3 == a3.intern()); //true
+        System.out.println(a2 == a2.intern()); //false
+        System.out.println(a3 == "CCDD"); //true
+        System.out.println(a2 == "BB"); //false
+
+        //  为什么a3 == "CCDD"为true?
+        //      "CCDD"在运行时,首先判断串池中是否有该对象,而此时串池中有指向堆中"CCDD"对象的引用,
+        //      所以"CCDD"这句话并没有在串池新建对象,而是指向了串池中的那个引用,即堆中的"CCDD"对象.
+
+        // String a3 = "CC" + new String("DD");
+        //  语句中的"CC"在运行时,实际上已经在串池中新建了对象,但并没有把引用赋值给任何变量.
+        //  该语句运行后结果如下
+        //      堆:      "DD", "CCDD"
+        //      串池:    "CC", "DD", 堆中"CCDD"的引用
     }
 
     @Test

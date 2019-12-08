@@ -91,7 +91,7 @@ public class Stream类 {
     @Test
     public void forEach_(){
         Stream<Integer> stream = Stream.of(-3, 4, -5, 1, 11, -41, 12);
-        //forEach()方法没有返回值
+        //forEach()方法没有返回值,而map()方法必须有返回值
         stream.forEach(x -> {x=-x; System.out.print(x + ", ");});
     }
 
