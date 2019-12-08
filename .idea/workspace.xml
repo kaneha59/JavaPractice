@@ -98,8 +98,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.List去重.test">
-    <configuration name="List去重" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Arrays类.binarySearch_">
+    <configuration name="Arrays类.asList_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
@@ -108,13 +108,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="java基础.集合框架" />
-      <option name="MAIN_CLASS_NAME" value="java基础.集合框架.List去重" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="java基础.集合框架.Arrays类" />
+      <option name="METHOD_NAME" value="asList_" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="List去重.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Arrays类.binarySearch_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
@@ -123,75 +124,75 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="java基础.集合框架" />
-      <option name="MAIN_CLASS_NAME" value="java基础.集合框架.List去重" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="java基础.集合框架.Arrays类" />
+      <option name="METHOD_NAME" value="binarySearch_" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Predicate接口.and_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Arrays类.fdsaf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.JAVA8新特性.*" />
+          <option name="PATTERN" value="java基础.集合框架.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.JAVA8新特性" />
-      <option name="MAIN_CLASS_NAME" value="java基础.JAVA8新特性.Predicate接口" />
-      <option name="METHOD_NAME" value="and_" />
+      <option name="PACKAGE_NAME" value="java基础.集合框架" />
+      <option name="MAIN_CLASS_NAME" value="java基础.集合框架.Arrays类" />
+      <option name="METHOD_NAME" value="fdsaf" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Predicate接口.negate_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Arrays类.sort_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.JAVA8新特性.*" />
+          <option name="PATTERN" value="java基础.集合框架.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.JAVA8新特性" />
-      <option name="MAIN_CLASS_NAME" value="java基础.JAVA8新特性.Predicate接口" />
-      <option name="METHOD_NAME" value="negate_" />
+      <option name="PACKAGE_NAME" value="java基础.集合框架" />
+      <option name="MAIN_CLASS_NAME" value="java基础.集合框架.Arrays类" />
+      <option name="METHOD_NAME" value="sort_" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Predicate接口.or_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Arrays类.sss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.JAVA8新特性.*" />
+          <option name="PATTERN" value="java基础.集合框架.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.JAVA8新特性" />
-      <option name="MAIN_CLASS_NAME" value="java基础.JAVA8新特性.Predicate接口" />
-      <option name="METHOD_NAME" value="or_" />
+      <option name="PACKAGE_NAME" value="java基础.集合框架" />
+      <option name="MAIN_CLASS_NAME" value="java基础.集合框架.Arrays类" />
+      <option name="METHOD_NAME" value="sss" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Predicate接口.and_" />
-      <item itemvalue="JUnit.Predicate接口.or_" />
-      <item itemvalue="JUnit.Predicate接口.negate_" />
-      <item itemvalue="JUnit.List去重.test" />
-      <item itemvalue="JUnit.List去重" />
+      <item itemvalue="JUnit.Arrays类.fdsaf" />
+      <item itemvalue="JUnit.Arrays类.sort_" />
+      <item itemvalue="JUnit.Arrays类.sss" />
+      <item itemvalue="JUnit.Arrays类.asList_" />
+      <item itemvalue="JUnit.Arrays类.binarySearch_" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.List去重.test" />
-        <item itemvalue="JUnit.List去重" />
-        <item itemvalue="JUnit.Predicate接口.negate_" />
-        <item itemvalue="JUnit.Predicate接口.or_" />
-        <item itemvalue="JUnit.Predicate接口.and_" />
+        <item itemvalue="JUnit.Arrays类.binarySearch_" />
+        <item itemvalue="JUnit.Arrays类.asList_" />
+        <item itemvalue="JUnit.Arrays类.sss" />
+        <item itemvalue="JUnit.Arrays类.sort_" />
+        <item itemvalue="JUnit.Arrays类.fdsaf" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +248,7 @@
       <workItem from="1574500576188" duration="2856000" />
       <workItem from="1575631532435" duration="5427000" />
       <workItem from="1575771534464" duration="21598000" />
+      <workItem from="1575809103802" duration="5708000" />
     </task>
     <servers />
   </component>
