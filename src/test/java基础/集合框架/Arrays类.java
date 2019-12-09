@@ -8,6 +8,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Spliterator;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -17,6 +18,9 @@ public class Arrays类 {
 
     @Test
     public void test() {
+        // 有几个jdk1.8及之后版本加入的方法没还没搞明白.
+
+        //1.
     }
 
     /**
@@ -110,10 +114,117 @@ public class Arrays类 {
         // 引用数据类型的用法同基本数据类型
     }
 
+    /**
+     * copyOf()
+     * 用于给数组扩容
+     * 将数组复制进一个新的自定义长度数组,并返回此新数组.
+     */
     @Test
-    public void fdsa() {
-        //其他方法还有很多......
+    public void copyOf_() {
+        int[] ints = Arrays.copyOf(this.ints, 10);
+        System.out.println(ints.length);
+        System.out.println(Arrays.toString(ints));
 
+        Student[] students = Arrays.copyOf(this.students, 5);
+        System.out.println(Arrays.toString(students));
+    }
+
+    /**
+     * copyOfRange()
+     * 截取数组,返回截取的新数组.
+     */
+    @Test
+    public void copyOfRange_() {
+        int[] ints = Arrays.copyOfRange(this.ints, 2, 4);
+        System.out.println(Arrays.toString(ints));
+    }
+
+    /**
+     * fill()
+     * 将数组中所有的元素变成指定元素.
+     */
+    @Test
+    public void fill_() {
+        Arrays.fill(ints, 99);
+        System.out.println(Arrays.toString(ints));
+        Arrays.fill(students, new Student("jinyu"));
+        System.out.println(Arrays.toString(students));
+    }
+
+    /**
+     * mismatch()
+     * 判断两个数组第一个不相等的元素的下标是多少
+     * 默认从0开始比较,重载方法可以指定比较的区间
+     * 引用数据类型使用equals()来判断
+     * JDK 9
+     */
+    @Test
+    public void mismatch_() {
+        System.out.println(Arrays.mismatch(ints, new int[]{1, 2, 7, 9}));
+        System.out.println(Arrays.mismatch(new int[]{1, 2, 3, 4}, ints));
+        System.out.println(Arrays.mismatch(ints, new int[]{1, 2, 3, 4, 3, 2, 1}));
+        int mismatch = Arrays.mismatch(ints, 3, 7,
+                new int[]{4, 3, 99, 1}, 0, 4);
+        System.out.println(mismatch);
+
+        int result = Arrays.mismatch(students, new Student[]{new Student("John")});
+        System.out.println(result);
+    }
+
+    /**
+     * TODO
+     */
+    @Test
+    public void parallelPrefix_() {
+//        Arrays.parallelPrefix(ints, 1, 4, );
+    }
+
+    /**
+     * TODO
+     * JDK 1.8
+     */
+    @Test
+    public void parallelSetAll_() {
+//        Arrays.parallelSetAll();
+    }
+
+    /**
+     * TODO
+     * JDK 1.8
+     */
+    @Test
+    public void setAll_() {
+//        Arrays.setAll();
+    }
+
+    /**
+     * TODO
+     * JDK 1.8
+     */
+    @Test
+    public void spliterator() {
+//        Arrays.spliterator(ints);
+    }
+
+    /**
+     * compare()
+     * 将两个数组首个mismatch的元素的大小进行compare()比较,返回比较结果
+     * JDK 9
+     */
+    @Test
+    public void compare_() {
+        //....
+        System.out.println(Arrays.compare(ints, new int[]{6, 7, 8}));
+
+    }
+
+    /**
+     * TODO
+     * JDK 9
+     */
+    @Test
+    public void compareUnsigned_() {
+        System.out.println(Arrays.compareUnsigned(ints, new int[]{6, 7, 8}));
     }
 
     /**
