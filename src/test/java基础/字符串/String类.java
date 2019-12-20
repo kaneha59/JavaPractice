@@ -32,7 +32,6 @@ public class String类 {
         // 8.截取字符串
 
         // 9.分隔字符串,该方法是否会替换掉匹配内容?
-
         // 10.是否以给定字符串开头或结尾?
 
         // 11.将两个字符串的局部内容进行匹配返回boolean?
@@ -47,9 +46,9 @@ public class String类 {
 
         //15. String的静态方法format()怎么用?(参考同目录下的"String的format()方法.txt")
 
-        System.out.println(String.format("%9s%n%<6s", "abc"));
-        System.out.println(String.format("%2$d 比 %1$d 大5", 2, 7));
-        System.out.println(String.format("%6d和%% 呀%6d一样大", 34, 34));
+//        System.out.println(String.format("%9s%n%<6s", "abc"));
+//        System.out.println(String.format("%2$d 比 %1$d 大5", 2, 7));
+//        System.out.println(String.format("%6d和%% 呀%6d一样大", 34, 34));
 
     }
 

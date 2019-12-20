@@ -1,0 +1,37 @@
+一.IO流
+    字节流
+        --InputStream
+            --FileInputStream
+            --FilterInputStream
+                --BufferedInputStream
+        --OutputStream
+            --FileOutputStream
+            --FilterOutputStream
+                --BufferedOutputStream
+    字符流
+        --Reader
+            --BufferedReader
+            --InputStreamReader
+                --FileReader
+            --StreamDecoder <=== InputStreamReader的内部实现依靠它
+        --Writer
+            --BufferedWriter
+            --OutputStreamWriter
+                --FileWriter
+            --StreamEncoder <=== OutputStreamWriter的内部实现依靠它
+知识点:
+    1.关闭最外层的流,就能同时关闭嵌套的流,无需为嵌套的流写close();
+    2.所有文件都用字节流传输,字符流只是将字节包装成字符再传输而已!
+    3.BufferedReader支持readline()
+
+Reader: 是抽象类
+    有抽象方法public abstract int read(char cbuf[], int off, int len) throws IOException;
+    1. Reader类内其他重载read()方法都是调用此方法
+    2. ready() --> stream是否准备好read.返回boolean
+    3. 其他方法先暂时搁置
+
+二.字符集和编码
+    1.字符集: 为每一个「字符」分配一个唯一的 ID（学名为码位 / 码点 / Code Point）
+              java默认使用Unicode字符集
+    2.编码规则: 将「码位」转换为字节序列的规则（编码/解码 可以理解为 加密/解密 的过程）
+               包括UTF-8,UTF-16等

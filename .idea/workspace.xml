@@ -40,6 +40,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -76,7 +79,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -98,81 +101,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.List去重.双重for循环去重">
-    <configuration name="Arrays类.copyOfRange_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.泛型方法.Test">
+    <configuration name="BufferedReader类.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.集合框架.*" />
+          <option name="PATTERN" value="java基础.IO流.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.集合框架" />
-      <option name="MAIN_CLASS_NAME" value="java基础.集合框架.Arrays类" />
-      <option name="METHOD_NAME" value="copyOfRange_" />
+      <option name="PACKAGE_NAME" value="java基础.IO流" />
+      <option name="MAIN_CLASS_NAME" value="java基础.IO流.BufferedReader类" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays类.equals_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileInputStream类.用缓冲流传输" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.集合框架.*" />
+          <option name="PATTERN" value="java基础.IO流.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.集合框架" />
-      <option name="MAIN_CLASS_NAME" value="java基础.集合框架.Arrays类" />
-      <option name="METHOD_NAME" value="equals_" />
+      <option name="PACKAGE_NAME" value="java基础.IO流" />
+      <option name="MAIN_CLASS_NAME" value="java基础.IO流.FileInputStream类" />
+      <option name="METHOD_NAME" value="用缓冲流传输" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays类.sort_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InputStreamReader类.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.集合框架.*" />
+          <option name="PATTERN" value="java基础.IO流.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.集合框架" />
-      <option name="MAIN_CLASS_NAME" value="java基础.集合框架.Arrays类" />
-      <option name="METHOD_NAME" value="sort_" />
+      <option name="PACKAGE_NAME" value="java基础.IO流" />
+      <option name="MAIN_CLASS_NAME" value="java基础.IO流.InputStreamReader类" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="List去重.双重for循环去重" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="泛型方法.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.集合框架.*" />
+          <option name="PATTERN" value="java基础.泛型.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.集合框架" />
-      <option name="MAIN_CLASS_NAME" value="java基础.集合框架.List去重" />
-      <option name="METHOD_NAME" value="双重for循环去重" />
+      <option name="PACKAGE_NAME" value="java基础.泛型" />
+      <option name="MAIN_CLASS_NAME" value="java基础.泛型.泛型方法" />
+      <option name="METHOD_NAME" value="Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="List去重.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="泛型类.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.集合框架.*" />
+          <option name="PATTERN" value="java基础.泛型.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.集合框架" />
-      <option name="MAIN_CLASS_NAME" value="java基础.集合框架.List去重" />
+      <option name="PACKAGE_NAME" value="java基础.泛型" />
+      <option name="MAIN_CLASS_NAME" value="java基础.泛型.泛型类" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -180,19 +183,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Arrays类.equals_" />
-      <item itemvalue="JUnit.Arrays类.sort_" />
-      <item itemvalue="JUnit.Arrays类.copyOfRange_" />
-      <item itemvalue="JUnit.List去重.test" />
-      <item itemvalue="JUnit.List去重.双重for循环去重" />
+      <item itemvalue="JUnit.FileInputStream类.用缓冲流传输" />
+      <item itemvalue="JUnit.InputStreamReader类.test" />
+      <item itemvalue="JUnit.BufferedReader类.test" />
+      <item itemvalue="JUnit.泛型类.test" />
+      <item itemvalue="JUnit.泛型方法.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.List去重.双重for循环去重" />
-        <item itemvalue="JUnit.List去重.test" />
-        <item itemvalue="JUnit.Arrays类.copyOfRange_" />
-        <item itemvalue="JUnit.Arrays类.sort_" />
-        <item itemvalue="JUnit.Arrays类.equals_" />
+        <item itemvalue="JUnit.泛型方法.Test" />
+        <item itemvalue="JUnit.泛型类.test" />
+        <item itemvalue="JUnit.BufferedReader类.test" />
+        <item itemvalue="JUnit.InputStreamReader类.test" />
+        <item itemvalue="JUnit.FileInputStream类.用缓冲流传输" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +253,14 @@
       <workItem from="1575771534464" duration="21598000" />
       <workItem from="1575809103802" duration="5708000" />
       <workItem from="1575892617346" duration="6083000" />
+      <workItem from="1575981468075" duration="14000" />
+      <workItem from="1576146943029" duration="8377000" />
+      <workItem from="1576240264816" duration="5663000" />
+      <workItem from="1576289400497" duration="9234000" />
+      <workItem from="1576335011049" duration="5846000" />
+      <workItem from="1576381881461" duration="16565000" />
+      <workItem from="1576420847585" duration="44000" />
+      <workItem from="1576671708430" duration="1132000" />
     </task>
     <servers />
   </component>

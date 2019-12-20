@@ -4,6 +4,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.*;
 
 public class JunitTestTest {
@@ -18,7 +20,21 @@ public class JunitTestTest {
 
     @Test
     public void test1() {
-        StringBuilder sb = new StringBuilder("Aab");
-        assertEquals(sb, new JunitTest().test());
+        try {
+            this.getsome();
+        } catch (Exception e) {
+            System.out.println("我抓到了异常!");
+            e.printStackTrace();
+        }
     }
+
+    public void getsome() {
+        this.getsome1();
+    }
+
+    public Object getsome1 () {
+        ArrayList list = new ArrayList<>();
+        return list.get(5);
+    }
+
 }

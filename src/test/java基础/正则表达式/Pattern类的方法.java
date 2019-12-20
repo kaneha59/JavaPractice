@@ -26,14 +26,16 @@ public class Pattern类的方法 {
      * public String[] split(CharSequence input, int limit) {...}
      * 用于分割字符串,返回String数组.有2个重载方法
      * 关键词: 重载方法
+     * 是否会替换掉匹配到的内容?
      */
     @Test
     public void split_(){
-        String sentence = "my name is zhangsan";
-        String regex = " ";
+        String sentence = "my-name-is-zhangsan";
+        String regex = "-";
 
         Pattern compile = Pattern.compile(regex);
 
+        // 是否会替换掉匹配到的内容?
         //一个参数
         String[] split1 = compile.split(sentence);
         System.out.println("一个参数: " + Arrays.asList(split1));

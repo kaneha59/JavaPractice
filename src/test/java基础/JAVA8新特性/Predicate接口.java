@@ -69,8 +69,19 @@ public class Predicate接口 {
      */
     @Test
     public void isEqual_(){
-        Predicate<Object> equal = Predicate.isEqual(5);
-        System.out.println(equal.test(5));
-        System.out.println(equal.test(8));
+//        Predicate<Object> equal = Predicate.isEqual(5);
+        Predicate<Integer> InteEqual = integer -> integer.equals(5);
+        System.out.println(InteEqual.test(5));
+        System.out.println(InteEqual.test(8));
+
+        Predicate<String> strpredicate = str -> {
+            if(str.matches("\\w+")) {
+                return true;
+            }
+            return false;
+        };
+
+        System.out.println(strpredicate.test("zhangsan"));
+        System.out.println(strpredicate.test("张三"));
     }
 }

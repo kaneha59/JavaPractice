@@ -46,7 +46,7 @@ public class Arrays类 {
     }
 
     /**
-     * Arrays重写的equals(),用于比较两个数组;
+     * Arrays重写的equals(),用于比较两个数组的每一个元素;
      * Arrays.equals(Object[] a, Object[] a2)底层是调用数组object元素的equals()方法
      * 因此建议重写该元素实际的类的equals()方法.
      * ---因为java多态的缘故,该元素实际上调用的是自身重写的equals()方法---
@@ -112,6 +112,7 @@ public class Arrays类 {
         int resultIndex = Arrays.binarySearch(ints, 4, 6, 3);
         System.out.println(resultIndex);
         // 引用数据类型的用法同基本数据类型
+
     }
 
     /**
@@ -224,6 +225,7 @@ public class Arrays类 {
      */
     @Test
     public void compareUnsigned_() {
+        // .
         System.out.println(Arrays.compareUnsigned(ints, new int[]{6, 7, 8}));
     }
 

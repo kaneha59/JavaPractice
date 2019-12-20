@@ -1,0 +1,53 @@
+SpringMVC注解: 
+	@RequestMapping("/xxx")		请求路径,给类或方法设置路径;
+		value : 指定请求的实际url
+		method : 指定请求的method类型,如GET,POST,PUT,DELETE等
+		params : 指定request中必须包含某些参数值时,该方法才处理,
+				 比如 : @RequestMapping(params="myParam=myValue")
+		headers : 同上
+		
+
+	@ModelAttribute	方法或方法参数上用 
+		方法上 : 将该方法变成一个非请求处理的方法,同一个Controller下所有其他Action被调用时会首先调用该方法;		********************待定
+		参数上 : 将注解的参数对象自动添加到Model中,可用于回传
+		方法上同时使用了RequestMapping : 
+	@RequestBody	参数上 , 用于将json格式数据封装到标注的参数上(一个bean或者多个字符串)
+	@ResponseBody	方法上	当返回的数据不是html标签的页面,而是其他某种格式的数据时(如JSON,xml)使用,将返回值转换为JSON数据
+		
+	@RequestParam	方法的参数上  将请求的参数绑定到方法的参数上,
+		value : 
+		required : required=true为必须传参 , false意思是可传可不传
+		defaultValue : 是默认值,如果请求中没有同名参数时的默认值,如果设置该参数,自动将required设置为false
+		eg : @RequestParam(value="user" , required=false) User user
+		
+	@PathVariable  方法的参数上  绑定URI模板变量值 , 用于将请求URL中的模板变量映射到功能处理方法的参数上;
+		@RequestMapping("/users/{userId}/topics/{topicId}")
+		public String test(
+			@PathVariable("userId") int userId,
+			@PathVariable("topicId") int topicId)
+		如果传入url为/users/123/topics/456 , 则自动将URL中模板变量{userId}{topicId}绑定到@PathVariable注解的同名参数上
+
+Spring注解
+	对象管理:
+	@Component	标注在类上边,生成一个bean
+
+	@Service	标注在类上边,生成一个bean
+
+	@Controller	标注在类上边,生成一个bean
+	
+	@Repository	标注在DaoImpl上,生成一个bean
+
+	
+	
+	filed注入:
+	@Autowired	按照类型(type)自动匹配注入对象, 如果有多个相同的类型(比如接口类有多个实现类) , 可以配合用@Qualifier() , 再按照名字匹配
+
+	@Value() 	给基本类型和封装类型注值  eg:@Value("hello")	String a;
+
+	@Resource()	按照名字注值 eg: @Resource("userdao")  或者@Resource(name="userdao")
+
+	
+
+mybatis中:
+	@Param("xxx")	标注在dao层参数前,给参数起别名
+			
