@@ -32,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -47,8 +48,8 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="C:\Users\Kaneha\.m2\repository" />
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-        <option name="userSettingsFile" value="C:\GreenSoftware\ideaIU-2019.2.4.win\plugins\maven\lib\maven3\conf\settings.xml" />
+        <option name="mavenHome" value="C:/GreenSoftware/apache/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\GreenSoftware\apache\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -63,7 +64,7 @@
     <option name="vmOptions" value="-Dmaven.multiModuleProjectDirectory=$M2_HOME" />
   </component>
   <component name="ProjectId" id="1THVu3AQBhRXGnQ4G2D5lhHEy7s" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -79,7 +80,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -101,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.泛型方法.Test">
+  <component name="RunManager" selected="JUnit.Student.test">
     <configuration name="BufferedReader类.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
@@ -118,22 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputStream类.用缓冲流传输" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java基础.IO流.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java基础.IO流" />
-      <option name="MAIN_CLASS_NAME" value="java基础.IO流.FileInputStream类" />
-      <option name="METHOD_NAME" value="用缓冲流传输" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InputStreamReader类.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
@@ -144,6 +129,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="java基础.IO流" />
       <option name="MAIN_CLASS_NAME" value="java基础.IO流.InputStreamReader类" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java基础.注解.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java基础.注解" />
+      <option name="MAIN_CLASS_NAME" value="java基础.注解.Student" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -183,19 +184,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FileInputStream类.用缓冲流传输" />
       <item itemvalue="JUnit.InputStreamReader类.test" />
       <item itemvalue="JUnit.BufferedReader类.test" />
       <item itemvalue="JUnit.泛型类.test" />
       <item itemvalue="JUnit.泛型方法.Test" />
+      <item itemvalue="JUnit.Student.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Student.test" />
         <item itemvalue="JUnit.泛型方法.Test" />
         <item itemvalue="JUnit.泛型类.test" />
         <item itemvalue="JUnit.BufferedReader类.test" />
         <item itemvalue="JUnit.InputStreamReader类.test" />
-        <item itemvalue="JUnit.FileInputStream类.用缓冲流传输" />
       </list>
     </recent_temporary>
   </component>
@@ -261,6 +262,11 @@
       <workItem from="1576381881461" duration="16565000" />
       <workItem from="1576420847585" duration="44000" />
       <workItem from="1576671708430" duration="1132000" />
+      <workItem from="1576847289762" duration="425000" />
+      <workItem from="1576886865560" duration="9401000" />
+      <workItem from="1576899630244" duration="2566000" />
+      <workItem from="1576920087122" duration="81000" />
+      <workItem from="1577886428611" duration="797000" />
     </task>
     <servers />
   </component>
@@ -279,6 +285,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

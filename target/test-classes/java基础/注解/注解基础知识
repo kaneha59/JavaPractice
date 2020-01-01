@@ -1,0 +1,11 @@
+学习文章: https://blog.csdn.net/qq1404510094/article/details/80577555
+
+注解的定义: public @interface TestAnnotation {}
+    使用@interface关键字来定义注解
+
+元注解:
+    @Retention 英文意思:保留,维持
+    @Documented
+    @Target
+    @Inherited
+    @Repeatable
