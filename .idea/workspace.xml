@@ -47,9 +47,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\Kaneha\.m2\repository" />
-        <option name="mavenHome" value="C:/GreenSoftware/apache/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="C:\GreenSoftware\apache\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="C:\Users\jyhes\.m2\repository" />
+        <option name="mavenHome" value="C:/Coding/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="C:\Coding\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -103,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.L_ArrayList类.tesfd">
+  <component name="RunManager" selected="JUnit.java异常.catchException1">
     <configuration name="L_ArrayList类.tesfd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
@@ -136,38 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern类的方法.asMatcherPredicate_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java基础.正则表达式.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java基础.正则表达式" />
-      <option name="MAIN_CLASS_NAME" value="java基础.正则表达式.Pattern类的方法" />
-      <option name="METHOD_NAME" value="asMatcherPredicate_" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pattern类的方法.asPredicate_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java基础.正则表达式.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java基础.正则表达式" />
-      <option name="MAIN_CLASS_NAME" value="java基础.正则表达式.Pattern类的方法" />
-      <option name="METHOD_NAME" value="asPredicate_" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Pattern类的方法.matcher_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
@@ -184,20 +152,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="泛型方法.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java基础.泛型.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java基础.泛型" />
+      <option name="MAIN_CLASS_NAME" value="java基础.泛型.泛型方法" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java异常.catchException1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java基础.异常.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java基础.异常" />
+      <option name="MAIN_CLASS_NAME" value="java基础.异常.java异常" />
+      <option name="METHOD_NAME" value="catchException1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.Pattern类的方法.asPredicate_" />
-      <item itemvalue="JUnit.Pattern类的方法.asMatcherPredicate_" />
       <item itemvalue="JUnit.Pattern类的方法.matcher_" />
       <item itemvalue="JUnit.L_List接口.subList_" />
       <item itemvalue="JUnit.L_ArrayList类.tesfd" />
+      <item itemvalue="JUnit.泛型方法.Test" />
+      <item itemvalue="JUnit.java异常.catchException1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.java异常.catchException1" />
+        <item itemvalue="JUnit.泛型方法.Test" />
         <item itemvalue="JUnit.L_ArrayList类.tesfd" />
         <item itemvalue="JUnit.L_List接口.subList_" />
         <item itemvalue="JUnit.Pattern类的方法.matcher_" />
-        <item itemvalue="JUnit.Pattern类的方法.asMatcherPredicate_" />
-        <item itemvalue="JUnit.Pattern类的方法.asPredicate_" />
       </list>
     </recent_temporary>
   </component>
@@ -271,6 +271,8 @@
       <workItem from="1578099740862" duration="12774000" />
       <workItem from="1578310099935" duration="3446000" />
       <workItem from="1579003974229" duration="123000" />
+      <workItem from="1579657498436" duration="475000" />
+      <workItem from="1579657993012" duration="235000" />
     </task>
     <servers />
   </component>
