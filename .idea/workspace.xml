@@ -47,9 +47,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\jyhes\.m2\repository" />
-        <option name="mavenHome" value="C:/Coding/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="C:\Coding\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="localRepository" value="C:\Users\Kaneha\.m2" />
+        <option name="mavenHome" value="C:/GreenSoftware/apache/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\GreenSoftware\apache\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -273,6 +273,7 @@
       <workItem from="1579003974229" duration="123000" />
       <workItem from="1579657498436" duration="475000" />
       <workItem from="1579657993012" duration="235000" />
+      <workItem from="1579659192101" duration="383000" />
     </task>
     <servers />
   </component>
