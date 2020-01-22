@@ -68,12 +68,13 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573115447151" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springstudy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -102,101 +103,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Student.test">
-    <configuration name="BufferedReader类.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.L_ArrayList类.tesfd">
+    <configuration name="L_ArrayList类.tesfd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.IO流.*" />
+          <option name="PATTERN" value="java基础.数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.IO流" />
-      <option name="MAIN_CLASS_NAME" value="java基础.IO流.BufferedReader类" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="java基础.集合And数组" />
+      <option name="MAIN_CLASS_NAME" value="java基础.集合And数组.L_ArrayList类" />
+      <option name="METHOD_NAME" value="tesfd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputStreamReader类.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="L_List接口.subList_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.IO流.*" />
+          <option name="PATTERN" value="java基础.数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.IO流" />
-      <option name="MAIN_CLASS_NAME" value="java基础.IO流.InputStreamReader类" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="java基础.集合And数组" />
+      <option name="MAIN_CLASS_NAME" value="java基础.集合And数组.L_List接口" />
+      <option name="METHOD_NAME" value="subList_" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Pattern类的方法.asMatcherPredicate_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.注解.*" />
+          <option name="PATTERN" value="java基础.正则表达式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.注解" />
-      <option name="MAIN_CLASS_NAME" value="java基础.注解.Student" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="java基础.正则表达式" />
+      <option name="MAIN_CLASS_NAME" value="java基础.正则表达式.Pattern类的方法" />
+      <option name="METHOD_NAME" value="asMatcherPredicate_" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="泛型方法.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Pattern类的方法.asPredicate_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.泛型.*" />
+          <option name="PATTERN" value="java基础.正则表达式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.泛型" />
-      <option name="MAIN_CLASS_NAME" value="java基础.泛型.泛型方法" />
-      <option name="METHOD_NAME" value="Test" />
+      <option name="PACKAGE_NAME" value="java基础.正则表达式" />
+      <option name="MAIN_CLASS_NAME" value="java基础.正则表达式.Pattern类的方法" />
+      <option name="METHOD_NAME" value="asPredicate_" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="泛型类.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Pattern类的方法.matcher_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java基础.泛型.*" />
+          <option name="PATTERN" value="java基础.正则表达式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java基础.泛型" />
-      <option name="MAIN_CLASS_NAME" value="java基础.泛型.泛型类" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="java基础.正则表达式" />
+      <option name="MAIN_CLASS_NAME" value="java基础.正则表达式.Pattern类的方法" />
+      <option name="METHOD_NAME" value="matcher_" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.InputStreamReader类.test" />
-      <item itemvalue="JUnit.BufferedReader类.test" />
-      <item itemvalue="JUnit.泛型类.test" />
-      <item itemvalue="JUnit.泛型方法.Test" />
-      <item itemvalue="JUnit.Student.test" />
+      <item itemvalue="JUnit.Pattern类的方法.asPredicate_" />
+      <item itemvalue="JUnit.Pattern类的方法.asMatcherPredicate_" />
+      <item itemvalue="JUnit.Pattern类的方法.matcher_" />
+      <item itemvalue="JUnit.L_List接口.subList_" />
+      <item itemvalue="JUnit.L_ArrayList类.tesfd" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Student.test" />
-        <item itemvalue="JUnit.泛型方法.Test" />
-        <item itemvalue="JUnit.泛型类.test" />
-        <item itemvalue="JUnit.BufferedReader类.test" />
-        <item itemvalue="JUnit.InputStreamReader类.test" />
+        <item itemvalue="JUnit.L_ArrayList类.tesfd" />
+        <item itemvalue="JUnit.L_List接口.subList_" />
+        <item itemvalue="JUnit.Pattern类的方法.matcher_" />
+        <item itemvalue="JUnit.Pattern类的方法.asMatcherPredicate_" />
+        <item itemvalue="JUnit.Pattern类的方法.asPredicate_" />
       </list>
     </recent_temporary>
   </component>
@@ -267,6 +268,9 @@
       <workItem from="1576899630244" duration="2566000" />
       <workItem from="1576920087122" duration="81000" />
       <workItem from="1577886428611" duration="797000" />
+      <workItem from="1578099740862" duration="12774000" />
+      <workItem from="1578310099935" duration="3446000" />
+      <workItem from="1579003974229" duration="123000" />
     </task>
     <servers />
   </component>
@@ -290,9 +294,5 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
   </component>
 </project>

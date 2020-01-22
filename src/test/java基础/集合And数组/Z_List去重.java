@@ -1,4 +1,4 @@
-package java基础.集合框架;
+package java基础.集合And数组;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -6,10 +6,8 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-public class List去重 {
+public class Z_List去重 {
     Integer[] ints = new Integer[] {1, 1, 2, 2, 3, 3};
     List<Integer> list;
 

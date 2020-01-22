@@ -1,19 +1,13 @@
-package java基础.集合框架;
+package java基础.数组;
 
-import java其他内容.多线程.Dog;
-import java基础.随便写写.Person;
 import org.junit.Test;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Spliterator;
-import java.util.stream.Collectors;
+import java.util.*;
 import java.util.stream.Stream;
 
 public class Arrays类 {
     int[] ints = new int[] {1, 2, 3, 4, 3, 2, 1};
+    String[] strs = {"aaa", "bbb", "ccc"};
     Student[] students = new Student[] {new Student("John"), new Student("Marry")};
 
     @Test
@@ -55,6 +49,7 @@ public class Arrays类 {
     public void equals_() {
         boolean equals = Arrays.equals(ints, new int[]{1, 2, 3, 4});
         System.out.println(equals);
+        // 新的Student数组和students数据一样,但是内存地址不一样(因为是new出来的)
         boolean equals1 = Arrays.equals(students, new Student[]{new Student("John"), new Student("Marry")});
         //因为重写了Student类的equals()方法,所以此处返回true
         //  如果没有重写equals()方法,则默认用Object的equals(),比较元素的内存地址
@@ -63,7 +58,7 @@ public class Arrays类 {
 
     /**
      * Arrays.sort();
-     * 为符合数据类型排序需要重写compareTo()方法
+     * 为引用数据类型排序需要重写compareTo()方法
      * 或者用重载方法Arrays.sort(T[] a, Comparator<? super T> c)
      */
     @Test
@@ -88,7 +83,7 @@ public class Arrays类 {
     /**
      * Arrays.asList()有几点要重点关注:
      * public static <T> List<T> asList(T... a){...}
-     * 1. 不能用于基本数据类型. 原因看上边的asList()方法定义
+     * 1. 不能用于基本数据类型. 因为泛型不支持基本数据类型
      * 2. 该方法返回的ArrayList不是List接口的实现类ArrayList,而是Arrays的一个内部类ArrayList
      * 3. 该ArrayList的长度固定,因为其内部维护元素的数组E[] a是final的!
      * 4. 长度固定,所以改变长度,增删元素都会报错.
@@ -104,15 +99,18 @@ public class Arrays类 {
 
     /**
      * binarySearch()用二分法查找key对应的index,要求数组必须有序!
+     * 只会返回找到的第一个元素的index(数组已经有序了)
      */
     @Test
     public void binarySearch_() {
         // 数组必须有序才能使用binarySearch()
         Arrays.sort(ints);
-        int resultIndex = Arrays.binarySearch(ints, 4, 6, 3);
+        int resultIndex = Arrays.binarySearch(ints, 0, 6, 3);
         System.out.println(resultIndex);
-        // 引用数据类型的用法同基本数据类型
-
+        // 引用数据类型的用法同基本数据类型,但需要传入比较器
+        // TODO Comparator.naturalOrder()以后抽空学习一下
+        int bbb = Arrays.binarySearch(strs, "bbb", Comparator.naturalOrder());
+        System.out.println(bbb);
     }
 
     /**
@@ -209,14 +207,14 @@ public class Arrays类 {
 
     /**
      * compare()
-     * 将两个数组首个mismatch的元素的大小进行compare()比较,返回比较结果
+     * 将两个数组比较大小(按照字典顺序)
      * JDK 9
      */
     @Test
     public void compare_() {
-        //....
         System.out.println(Arrays.compare(ints, new int[]{6, 7, 8}));
-
+        System.out.println(Arrays.compare(ints, new int[]{9, 2, 3, 4, 3, 2, 1}));
+        System.out.println(Arrays.compare(new int[]{9, 2, 3, 4, 3, 2, 1}, ints));
     }
 
     /**

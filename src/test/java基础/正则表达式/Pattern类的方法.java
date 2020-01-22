@@ -4,12 +4,28 @@ import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.function.Predicate;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Pattern类的方法 {
+
+    /**
+     * public Matcher matcher(CharSequence input) {...}
+     * 获取匹配器
+     */
+    @Test
+    public void matcher_() {
+        String sentence = "my name is zhangsan";
+
+        Pattern compile = Pattern.compile("is");
+        Matcher matcher = compile.matcher(sentence);
+
+        matcher.find();
+        System.out.println(matcher.group());
+    }
     /**
      * public static boolean matches(String regex, CharSequence input) {...}
-     * 用于判断是否完全匹配整个字符串,返回boolean
+     * 判断是否完全匹配整个字符串,返回boolean
      * 关键词: 静态方法
      * PS: CharSequence意思是Char序列,该接口是String,StringBuilder,StringBuffer等类的实现接口
      */
@@ -26,7 +42,7 @@ public class Pattern类的方法 {
      * public String[] split(CharSequence input, int limit) {...}
      * 用于分割字符串,返回String数组.有2个重载方法
      * 关键词: 重载方法
-     * 是否会替换掉匹配到的内容?
+     * 是否会删除掉匹配到的内容?
      */
     @Test
     public void split_(){
