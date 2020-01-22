@@ -47,9 +47,6 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\jyhes\.m2\repository" />
-        <option name="mavenHome" value="C:/Coding/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="C:\Coding\apache-maven-3.6.0\conf\settings.xml" />
         <option name="localRepository" value="C:\Users\Kaneha\.m2" />
         <option name="mavenHome" value="C:/GreenSoftware/apache/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="C:\GreenSoftware\apache\apache-maven-3.6.3\conf\settings.xml" />
@@ -77,7 +74,6 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573115447151" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springstudy" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
