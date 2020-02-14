@@ -7,6 +7,9 @@ import org.junit.Test;
 import java.io.*;
 import java.util.Date;
 
+/**
+ * 使用BufferedInputStream的read()和FileInputStream的read()有什么区别?
+ */
 public class FileInputStream类 {
     Date before;
     Date after;
@@ -17,8 +20,8 @@ public class FileInputStream类 {
     public void 以byte为单位传输() {
         try {
             // 龟速运行
-            InputStream inStream = new java.io.FileInputStream(filePath + fileName);
-            OutputStream outStream = new FileOutputStream(targetPath + fileName);
+            FileInputStream inStream = new java.io.FileInputStream(filePath + fileName);
+            FileOutputStream outStream = new FileOutputStream(targetPath + fileName);
             int i = 0;
             while(i != -1) {
                 i = inStream.read();//返回值范围: -1到255, 1Byte=8bit=2的8次方
@@ -35,8 +38,8 @@ public class FileInputStream类 {
     public void 以byte数组为单位传输() {
         // 2.2G小电影耗时大约30s
         try {
-            InputStream inStream = new FileInputStream(filePath + fileName);
-            OutputStream outStream = new FileOutputStream(targetPath + fileName);
+            FileInputStream inStream = new FileInputStream(filePath + fileName);
+            FileOutputStream outStream = new FileOutputStream(targetPath + fileName);
 
             byte[] bytes = new byte[1024];
             while(inStream.read(bytes) != -1) {
@@ -54,8 +57,8 @@ public class FileInputStream类 {
     public void 用缓冲流传输() {
         // 2.2G小电影耗时约13秒
         try {
-            InputStream inStream = new FileInputStream(filePath + fileName);
-            OutputStream outStream = new FileOutputStream(targetPath + fileName);
+            FileInputStream inStream = new FileInputStream(filePath + fileName);
+            FileOutputStream outStream = new FileOutputStream(targetPath + fileName);
 
             BufferedInputStream bis = new BufferedInputStream(inStream);
             BufferedOutputStream bos = new BufferedOutputStream(outStream);

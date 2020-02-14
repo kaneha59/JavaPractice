@@ -57,11 +57,12 @@ public class InputStreamReader类 {
     }
 
     /**
-     * FileReader类继承自InputStreamReader
-     * 该类内部只有构造方法,没有其他方法
-     * 构造方法实际上是调用了InputStreamReader的构造方法
-     * 唯一的不同就是帮我们自动生成了FileInputStream作为入参
-     * 所以本质上FileReader和InputStreamReader没有不同......
+     * FileReader的作用就是简化InputStreamReader的构建过程
+     *
+     * FileReader只用于构建InputStreamReader(FileReader继承InputStreamReader)
+     * FileReader内只有构造方法,且这些构造方法是调用InputStreamReader的构造方法
+     * 只是添加了new FileInputStream作为入参
+     * 所以FileReader和InputStreamReader在使用中完全没有不同
      */
     @Test
     public void FileReader类() {

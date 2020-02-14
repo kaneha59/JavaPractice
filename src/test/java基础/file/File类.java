@@ -217,7 +217,7 @@ public class File类 {
     }
 
     /**
-     * renameTo() 作用比较诡异
+     * renameTo() 作用比较诡异,相当于给文件剪切到新目录并重命名.
      */
     @Test
     public void 其他方法() {
