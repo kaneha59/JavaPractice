@@ -50,4 +50,4 @@ Spring注解
 
 mybatis中:
 	@Param("xxx")	标注在dao层参数前,给参数起别名
-			
+			啊啊啊啊
