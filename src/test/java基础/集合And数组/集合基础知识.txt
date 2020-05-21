@@ -1,0 +1,7 @@
+集合基础结构如下:
+    --Iterable接口(底层)
+        --Collection接口
+            --Set接口
+            --List接口
+    --Map接口(底层)
+

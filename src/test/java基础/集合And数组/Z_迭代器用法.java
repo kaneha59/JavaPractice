@@ -15,12 +15,11 @@ public class Z_迭代器用法 {
      * hasNext(): 判断容器中是否还有元素
      * next(): 取出下一个元素(不要重复调用)
      * remove(): 移除当前元素(必须在next方法后使用)
-     * forEachRemaining(Consumer<? super E> action)
+     * forEachRemaining(Consumer<? super E> action): 传入Consumer对象(Lambda),遍历剩余的元素.
      */
     @Test
     public void 迭代器用法() {
         Iterator<String> iterator = list.iterator();
-
         // 1.hasNext(), next(), remove()的用法示例
         while (iterator.hasNext()) {
             String nextStr = iterator.next();
@@ -31,24 +30,24 @@ public class Z_迭代器用法 {
         }
         System.out.println(list);
 
-        // 一个迭代器只能使用一次,所以下边两个方法不会生效.
-//         2.forEachRemaining(Consumer<? super E> action)
-        // 使用消费者模式遍历集合,不能删除元素
+        // 2.forEachRemaining(Consumer<? super E> action)
+        // remain: 剩余的;保持不变  方法的意思是遍历剩下的元素.(由于前边iterator已经遍历过了,所以剩下元素为0,下边两个方法不生效)
+        // 使用消费者模式遍历集合中剩余的元素,缺点是不能删除元素
         // 2.1)Lambda表达式用法
-//        iterator.forEachRemaining(str -> System.out.println(str));
+        iterator.forEachRemaining(str -> System.out.println(str));
         // 2.2)方法引用用法
-//        iterator.forEachRemaining(System.out::print);
+        iterator.forEachRemaining(System.out::print);
         // Set的迭代器用法省略,和List一样
     }
 
     /**
-     * list迭代器相对于普通迭代器新增了方法如下:
+     * list迭代器在普通迭代器的基础上新增了方法如下:
      * nextIndex(): 返回下一个元素的index
      * add(): 在下一个元素前(当前元素后)添加新元素
      * set(): 改变当前元素
      * hasPrevious(): 是否存在上一个元素
      * previousIndex(): 上一个元素的index
-     * previous(): 获取上一个元素(并使迭代器上移一位)
+     * previous(): 获取上一个元素(并使迭代器上移一位)  和next()方法正相反
      * 总结: 获得了1.访问index的能力 2.新增和修改的能力 3.前移的能力(previous系列)
      */
     @Test

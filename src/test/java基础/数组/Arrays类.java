@@ -14,7 +14,6 @@ public class Arrays类 {
     public void test() {
         // 有几个jdk1.8及之后版本加入的方法没还没搞明白.
 
-        //1.
     }
 
     /**
@@ -27,6 +26,9 @@ public class Arrays类 {
         System.out.println(s);
         String s1 = Arrays.toString(students);
         System.out.println(s1);
+
+        System.out.println(strs.toString() + "  数组直接调用toString()是打印内存地址");
+
     }
 
     /**
@@ -35,7 +37,8 @@ public class Arrays类 {
     @Test
     public void stream_() {
         Stream<Student> stream = Arrays.stream(students);
-        stream.forEach(x -> System.out.println(x));
+//        stream.forEach(x -> System.out.println(x));
+        stream.forEach(System.out::println);
         stream.close();
     }
 
@@ -47,8 +50,12 @@ public class Arrays类 {
      */
     @Test
     public void equals_() {
-        boolean equals = Arrays.equals(ints, new int[]{1, 2, 3, 4});
-        System.out.println(equals);
+        int[] ints1 = new int[]{1, 2, 3, 4};
+        int[] ints2 = new int[]{1, 2, 3, 4};
+        System.out.println(ints1.equals(ints2) + ": 数组默认的equals()是比较内存地址");
+
+        boolean equals = Arrays.equals(ints1, ints2);
+        System.out.println(equals + ": Arrays重写的equals()方法是比较数组的每个元素是否相等.");
         // 新的Student数组和students数据一样,但是内存地址不一样(因为是new出来的)
         boolean equals1 = Arrays.equals(students, new Student[]{new Student("John"), new Student("Marry")});
         //因为重写了Student类的equals()方法,所以此处返回true
@@ -65,19 +72,9 @@ public class Arrays类 {
     public void sort_() {
         Arrays.sort(ints, 4, 7);
         System.out.println(Arrays.toString(ints));
-    }
-
-    /**
-     * Arrays.parallelSort()
-     * JDK 1.8
-     * parallel意思是并行.
-     * parallelSort()用并发排序,基于fork/join
-     * sort()用快速排序
-     */
-    @Test
-    public void parallelSort_() {
-        Arrays.parallelSort(ints, 1, 7);
-        System.out.println(Arrays.toString(ints));
+        // 因为Student类没有实现Comparable接口,所以无法排序.
+//        Arrays.sort(students);
+//        System.out.println(students);
     }
 
     /**
@@ -98,25 +95,9 @@ public class Arrays类 {
     }
 
     /**
-     * binarySearch()用二分法查找key对应的index,要求数组必须有序!
-     * 只会返回找到的第一个元素的index(数组已经有序了)
-     */
-    @Test
-    public void binarySearch_() {
-        // 数组必须有序才能使用binarySearch()
-        Arrays.sort(ints);
-        int resultIndex = Arrays.binarySearch(ints, 0, 6, 3);
-        System.out.println(resultIndex);
-        // 引用数据类型的用法同基本数据类型,但需要传入比较器
-        // TODO Comparator.naturalOrder()以后抽空学习一下
-        int bbb = Arrays.binarySearch(strs, "bbb", Comparator.naturalOrder());
-        System.out.println(bbb);
-    }
-
-    /**
      * copyOf()
+     * 将数组复制进一个新的数组,并返回此新数组.
      * 用于给数组扩容
-     * 将数组复制进一个新的自定义长度数组,并返回此新数组.
      */
     @Test
     public void copyOf_() {
@@ -144,9 +125,14 @@ public class Arrays类 {
      */
     @Test
     public void fill_() {
+        int[] ints = this.ints.clone();
+        Student[] students = this.students.clone();
+
         Arrays.fill(ints, 99);
-        System.out.println(Arrays.toString(ints));
         Arrays.fill(students, new Student("jinyu"));
+
+        System.out.println("克隆的ints: " + Arrays.toString(ints));
+        System.out.println("原本的ints: " + Arrays.toString(this.ints));
         System.out.println(Arrays.toString(students));
     }
 
@@ -168,6 +154,35 @@ public class Arrays类 {
 
         int result = Arrays.mismatch(students, new Student[]{new Student("John")});
         System.out.println(result);
+    }
+
+    /**
+     * Arrays.parallelSort()
+     * JDK 1.8
+     * parallel意思是并行.
+     * parallelSort()用并发排序,基于fork/join
+     * sort()用快速排序
+     */
+    @Test
+    public void parallelSort_() {
+        Arrays.parallelSort(ints, 1, 7);
+        System.out.println(Arrays.toString(ints));
+    }
+
+    /**
+     * binarySearch()用二分法查找key对应的index,要求数组必须有序!
+     * 只会返回找到的第一个元素的index(数组已经有序了)
+     */
+    @Test
+    public void binarySearch_() {
+        // 数组必须有序才能使用binarySearch()
+        Arrays.sort(ints);
+        int resultIndex = Arrays.binarySearch(ints, 0, 6, 3);
+        System.out.println(resultIndex);
+        // 引用数据类型的用法同基本数据类型,但需要传入比较器
+        // TODO Comparator.naturalOrder()以后抽空学习一下
+        int bbb = Arrays.binarySearch(strs, "bbb", Comparator.naturalOrder());
+        System.out.println(bbb);
     }
 
     /**
@@ -252,11 +267,7 @@ public class Arrays类 {
                 return false;
             }
 
-            if(this.name.equals(stu1.name)){
-                return true;
-            }
-
-            return false;
+            return this.name.equals(stu1.name);
         }
     }
 }
