@@ -13,22 +13,19 @@ public class Runnable接口创建线程 {
      * main方法
      */
     public static void main(String[] args) {
-        Person p1 = new Person("p1");
-        p1.start();
+        Thread t1 = new Thread(new Person("p1"));
+        Thread t2 = new Thread(new Person("p2"));
+        t1.start();
+t1.interrupt();
+        t2.start();
+        System.out.println("haha");
 
-        Person p2 = new Person("p2");
-        p2.start();
     }
-
-
 }
 /**
  * 支持多线程的Person
  */
  class Person implements Runnable{
-
-    //支持多线程的类内有一个Thread变量;
-    Thread t;
     //Thread的名字
     String threadName;
 
@@ -40,29 +37,21 @@ public class Runnable接口创建线程 {
     }
 
     /**
-     * 新建Thread对象,并调用start()方法,线程进入就绪状态;
-     */
-    public void start() {
-        if(t == null) {
-            t = new Thread(this, threadName);
-            System.out.println(threadName + "---Creating Thread...");
-
-            //
-            t.start();
-            System.out.println(threadName + "---Starting Thread...");
-        }
-    }
-
-    /**
      * 运行
      */
     @Override
     public void run() {
+        synchronized (this) {
+
+        }
         try {
+            Thread.yield();
+            Thread.sleep(100);
             System.out.println(threadName + "---before sleeping...");
-            t.sleep(2000);
+            Thread.sleep(200);
             System.out.println(threadName + "---after sleeping...");
-        } catch (InterruptedException e) {
+            System.out.println(Thread.interrupted() + "ato");
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

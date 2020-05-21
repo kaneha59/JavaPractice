@@ -116,8 +116,8 @@ public class String类 {
 
         //replace(CharSequence target, CharSequence replacement)
         //还有重载方法,自己看
-        //替换单个字符,用replace(),替换字符串,用replaceAll()
-        String replace = str.replace("z", "Z");
+        //将指定字符(串)替换,用replace(),使用正则替换,用replaceAll()
+        String replace = str.replace("z", "Z12");
 
         System.out.println(replace);
 

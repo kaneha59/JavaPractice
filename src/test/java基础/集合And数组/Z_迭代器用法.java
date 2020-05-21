@@ -26,13 +26,13 @@ public class Z_迭代器用法 {
             String nextStr = iterator.next();
             if("第三个".equals(nextStr)) {
                 iterator.remove();
+                System.out.println("此时集合中已经移除该元素");
             }
-            System.out.print(nextStr + ", ");
         }
-        System.out.println("\n" + list);
+        System.out.println(list);
 
         // 一个迭代器只能使用一次,所以下边两个方法不会生效.
-        // 2.forEachRemaining(Consumer<? super E> action)
+//         2.forEachRemaining(Consumer<? super E> action)
         // 使用消费者模式遍历集合,不能删除元素
         // 2.1)Lambda表达式用法
 //        iterator.forEachRemaining(str -> System.out.println(str));
@@ -107,5 +107,6 @@ public class Z_迭代器用法 {
         list.add("第四个");
         list.add("第五个");
         list.add(5, "第六个");
+        System.out.println("初始化: " + list);
     }
 }

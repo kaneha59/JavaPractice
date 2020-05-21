@@ -10,13 +10,15 @@ public class java异常 {
         try {
             this.execute1();
         } catch (Exception e) {
-            System.out.println("调用的方法不用抛出异常,在外部也可以catch到!");
+            System.out.println("调用的方法时产生的运行时异常会被外部的catch块捕捉到");
+            System.out.println(e.getMessage());
             e.printStackTrace();
         }
     }
 
     private void execute1() {
         this.makeOneException1();
+        System.out.println("此行不会被打印: 抛出异常后程序终止进行...");
     }
 
     private void makeOneException1() {
