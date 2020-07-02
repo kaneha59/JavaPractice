@@ -15,7 +15,7 @@ public class FileInputStream类 {
     Date after;
     String filePath = "C:/迅雷下载/";
     String targetPath = "C:/testFile/金羽/";
-    String fileName = "ABP-523 ひたすら生でハメまくる、終らない中出し性交。 北野のぞみ.mp4";
+    String fileName = "ABP-523 ひたすら生でハメまくる、終らない中出し**。 北野のぞみ.mp4";
     @Test
     public void 以byte为单位传输() {
         try {
