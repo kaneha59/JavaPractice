@@ -13,21 +13,33 @@ public class Runnable接口创建线程 {
      * main方法
      */
     public static void main(String[] args) {
-        Thread t1 = new Thread(new Person("p1"));
-        Thread t2 = new Thread(new Person("p2"));
+
+//        Thread t1 = new Thread(new Person("p1"));
+//        Thread t2 = new Thread(new Person("p2"));
+//        Thread t3 = new Thread(new Person("p3"));
+        Person p1 = new Person("p1");
+        Thread t1 = new Thread(p1);
+        Thread t2 = new Thread(p1);
+        Thread t3 = new Thread(p1);
+
         t1.start();
-t1.interrupt();
         t2.start();
+        t3.start();
+        System.out.println(Thread.activeCount());
+        while (Thread.activeCount() > 2) Thread.yield();
+
         System.out.println("haha");
+        System.out.println(Person.count);
 
     }
 }
 /**
  * 支持多线程的Person
  */
- class Person implements Runnable{
+ class  Person implements Runnable{
     //Thread的名字
     String threadName;
+    static int count = 300000;
 
     /**
      * 构造方法
@@ -42,17 +54,11 @@ t1.interrupt();
     @Override
     public void run() {
         synchronized (this) {
-
-        }
-        try {
-            Thread.yield();
-            Thread.sleep(100);
-            System.out.println(threadName + "---before sleeping...");
-            Thread.sleep(200);
-            System.out.println(threadName + "---after sleeping...");
-            System.out.println(Thread.interrupted() + "ato");
-        } catch (Exception e) {
-            e.printStackTrace();
+            Thread.currentThread().setName(threadName);
+            for (int i = 0; i < 100000; i++) {
+                count--;
+            }
+            System.out.println(Thread.currentThread().getName());
         }
     }
 }

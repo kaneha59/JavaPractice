@@ -8,12 +8,14 @@ import org.junit.Test;
  */
 public class 继承 {
     private class Person {
+        String name = "person";
         public void write() {
             System.out.println("我是Person...");
         }
     }
 
     private class Student extends Person{
+        String name = "student";
         @Override
         public void write() {
             //super.write();
@@ -28,6 +30,9 @@ public class 继承 {
     @Test
     public void extendsTest() {
         Student student = new Student();
-        student.write();
+        System.out.println(student.name);
+        Person student1 = new Student();
+        System.out.println(student1.name);
+
     }
 }
