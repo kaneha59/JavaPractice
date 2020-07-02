@@ -13,24 +13,33 @@ public class Runnable接口创建线程 {
      * main方法
      */
     public static void main(String[] args) {
+
+//        Thread t1 = new Thread(new Person("p1"));
+//        Thread t2 = new Thread(new Person("p2"));
+//        Thread t3 = new Thread(new Person("p3"));
         Person p1 = new Person("p1");
-        p1.start();
+        Thread t1 = new Thread(p1);
+        Thread t2 = new Thread(p1);
+        Thread t3 = new Thread(p1);
 
-        Person p2 = new Person("p2");
-        p2.start();
+        t1.start();
+        t2.start();
+        t3.start();
+        System.out.println(Thread.activeCount());
+        while (Thread.activeCount() > 2) Thread.yield();
+
+        System.out.println("haha");
+        System.out.println(Person.count);
+
     }
-
-
 }
 /**
  * 支持多线程的Person
  */
- class Person implements Runnable{
-
-    //支持多线程的类内有一个Thread变量;
-    Thread t;
+ class  Person implements Runnable{
     //Thread的名字
     String threadName;
+    static int count = 300000;
 
     /**
      * 构造方法
@@ -40,30 +49,16 @@ public class Runnable接口创建线程 {
     }
 
     /**
-     * 新建Thread对象,并调用start()方法,线程进入就绪状态;
-     */
-    public void start() {
-        if(t == null) {
-            t = new Thread(this, threadName);
-            System.out.println(threadName + "---Creating Thread...");
-
-            //
-            t.start();
-            System.out.println(threadName + "---Starting Thread...");
-        }
-    }
-
-    /**
      * 运行
      */
     @Override
     public void run() {
-        try {
-            System.out.println(threadName + "---before sleeping...");
-            t.sleep(2000);
-            System.out.println(threadName + "---after sleeping...");
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        synchronized (this) {
+            Thread.currentThread().setName(threadName);
+            for (int i = 0; i < 100000; i++) {
+                count--;
+            }
+            System.out.println(Thread.currentThread().getName());
         }
     }
 }
