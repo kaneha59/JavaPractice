@@ -74,14 +74,14 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573115447151" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -103,7 +103,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.java异常.catchException1">
+  <component name="RunManager" selected="JUnit.Testts.stfds">
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="junit测试.TestClass" />
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit测试.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="L_ArrayList类.tesfd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
@@ -120,33 +133,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L_List接口.subList_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Testts.stfds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java基础.数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java基础.集合And数组" />
-      <option name="MAIN_CLASS_NAME" value="java基础.集合And数组.L_List接口" />
-      <option name="METHOD_NAME" value="subList_" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pattern类的方法.matcher_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java基础.正则表达式.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java基础.正则表达式" />
-      <option name="MAIN_CLASS_NAME" value="java基础.正则表达式.Pattern类的方法" />
-      <option name="METHOD_NAME" value="matcher_" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Testts" />
+      <option name="METHOD_NAME" value="stfds" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,19 +176,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Pattern类的方法.matcher_" />
-      <item itemvalue="JUnit.L_List接口.subList_" />
+      <item itemvalue="Application.TestClass" />
       <item itemvalue="JUnit.L_ArrayList类.tesfd" />
       <item itemvalue="JUnit.泛型方法.Test" />
       <item itemvalue="JUnit.java异常.catchException1" />
+      <item itemvalue="JUnit.Testts.stfds" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Testts.stfds" />
+        <item itemvalue="Application.TestClass" />
         <item itemvalue="JUnit.java异常.catchException1" />
         <item itemvalue="JUnit.泛型方法.Test" />
         <item itemvalue="JUnit.L_ArrayList类.tesfd" />
-        <item itemvalue="JUnit.L_List接口.subList_" />
-        <item itemvalue="JUnit.Pattern类的方法.matcher_" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +264,11 @@
       <workItem from="1579003974229" duration="123000" />
       <workItem from="1579657498436" duration="475000" />
       <workItem from="1579657993012" duration="235000" />
-      <workItem from="1579659192101" duration="383000" />
+      <workItem from="1579659192101" duration="767000" />
+      <workItem from="1581491400134" duration="4000" />
+      <workItem from="1591536486918" duration="4326000" />
+      <workItem from="1593700088383" duration="254000" />
+      <workItem from="1593700371028" duration="133000" />
     </task>
     <servers />
   </component>
