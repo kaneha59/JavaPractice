@@ -9,15 +9,6 @@ import java.util.Date;
 
 public class Date_ {
     /**
-     * Date类:
-     */
-    @Test
-    public void date_Test() {
-        Date date = new Date();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
-    }
-
-    /**
      * 构造方法
      */
     @Test
@@ -31,39 +22,32 @@ public class Date_ {
     }
 
     /**
-     * 返回起始时间至今的毫秒数(Long格式)
+     * setTime()和getTime(),获取/设置毫秒数
+     * Date可以和long互转
      */
     @Test
     public void getTime() {
         Date date = new Date();
-        System.out.println(date.getTime());
-    }
-
-    /**
-     *把时间设置为起始时间 + 毫秒数,作用等同于传参的构造方法
-     */
-    @Test
-    public void setTime() {
-        Date date = new Date();
-        System.out.println(date);
-        date.setTime(3000);
+        long time = date.getTime();
+        date.setTime(time);
         System.out.println(date);
     }
 
     /**
-     * 比较两个date对象的时间前后,返回boolean
+     * before() / after()
+     * 比较两个date对象的时间前后
      */
     @Test
     public void before() {
         Date date1 = new Date();
         Date date2 = new Date(5000);
-        boolean result = date1.before(date2);
-        System.out.println(result);
+        System.out.println(date1.before(date2));
+        System.out.println(date1.after(date2));
     }
 
     /**
      * 转换成instant对象;
-     * TODO
+     * Instant是时间戳,具体作用未知...
      */
     @Test
     public void toInstant(){

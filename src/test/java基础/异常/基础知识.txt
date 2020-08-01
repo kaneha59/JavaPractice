@@ -15,7 +15,7 @@
             --ClassNotFoundException
             --............
 
-    编译异常:
+    编译期异常:
         1).RuntimeException以外的异常是编译异常
         2).会在编译时被编译器提出需要捕获,不捕获则编译错误.
         3).必须被catch处理或throws抛出,(即使是手动throw的编译异常也要处理!)
