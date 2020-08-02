@@ -11,6 +11,8 @@ import java.util.Arrays;
  *    ../   ===> 指上一层目录
  *    /     ===> 指当前盘符的根目录,例如D:\
  *    啥也不写  ===> 指当前项目所在目录
+ *    File类的作用: 1.创建文件 2.删除文件 3.修改文件属性 4.列出目录下的文件
+ *    File类做不到的: 对文件内容进行读写
  */
 public class File类 {
     File localFile = new File("testFile/localFile.txt");
@@ -222,7 +224,6 @@ public class File类 {
     @Test
     public void 其他方法() {
         File file1 = new File("C:/金羽/aa.txt");
-
         //1. renameTo()传入一个File对象
         //   将原本的文件重命名并复制到入参File对象指向的路径(该路径必须存在,且路径内没有同名文件)
         //   *注意: 执行该操作会删除原本的文件*
